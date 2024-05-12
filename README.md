@@ -1,33 +1,33 @@
-# 💾  Arquivos TI 
 
-Este repositório foi criado na intenção de compartilhar minhas anotações de disciplinas da faculdade de ADS, assim como estudos complementares que me dedico. Sempre estarei atualizando e revisando estes documentos com o objetivo de manter uma documentação que sempre poderei retornar e consultar.  
-	
-O conteúdo abrange os fundamentos de Hardware e Software, estão organizadas em pastas e separadas por área de tecnologia, facilitando a navegação e o acesso aos estudos específicos. Todos os arquivos estão formatados em Markdown, permitindo uma leitura clara e de fácil entendimento, além de serem compatíveis com a maioria dos editores de texto e plataformas de visualização.  
+# 🖖 Hello, world
+
+Criei este GitBook na intenção de compartilhar minhas anotações de disciplinas da faculdade, assim como estudos complementares que me dedico. Estarei constantemente atualizando e revisando estes documentos com o objetivo de manter uma documentação que poderei retornar e consultar.
+
+Acredito que nossa comunidade Tecnológica se fortifica quando compartilhamos nossos conhecimentos e nos ajudamos a crescer. Então, se você é estudante ou profissional de algum ramo de TI dê uma ⭐ no repositório e compartilhe com outros que possam se beneficiar.
 
 Aproveite!
 
-### ⚙  [HARDWARE](Hardware/Hardware.md)  
+* [<mark style="color:purple;">**Respositório no GitHub**</mark>](https://github.com/gabriellabueno/ARQUIVO-TI)
 
+***
 
-### 🖥 [SOFTWARE](Software/Software.md)  
+## 🚀 Próximos passos
 
----
+Conforme avanço em meus estudos, pretendo expandir o conteúdo deste arquivo para incluir mais cadernos de outras áreas. Você pode acompanhar na tabela abaixo o status de elaboração dos cadernos, status 100% marca o fim de meu aprofundamento sobre a temática e quando o caderno é publicado neste repositório.
 
-# 🚀 Próximos Passos
+| Caderno              | Status |
+| -------------------- | ------ |
+| Sistema Operacional  | 98%    |
+| Estatística Aplicada | 95%    |
+| Estrutura de Dados   | 70%    |
+| Banco de Dados       | 10%    |
+| Redes                | 5%     |
 
-Conforme avanço meus estudos, pretendo expandir o conteúdo deste repositório para incluir mais tópicos e áreas de interesse. Em breve, planejo adicionar os seguintes cadernos:
+Lembrando que, mesmo após a publicação de um caderno, eventualmente poderei complementá-lo com conceitos que achar relevante. Fique atento a atualizações neste link ou no repositório para acompanhar o progresso e o crescimento do conteúdo.
 
-- **Sistemas Operacionais:** Uma visão aprofundada sobre sistemas operacionais, abordando desde a arquitetura de sistemas operacionais até gerenciamento de processos e memória.
-- **Banco de Dados:** Uma coleção de anotações sobre conceitos fundamentais de banco de dados, incluindo modelos de dados, SQL, e design de banco de dados.
-- **Redes:** Estudos sobre redes de computadores, abordando desde a camada física até a camada de aplicação, incluindo protocolos de rede e segurança.
+***
 
-Estou ansiosa para compartilhar esses estudos com a comunidade, a fim de contribuir para o aprendizado e a compreensão de Tecnologia. Fique atento a atualizações neste repositório para acompanhar o progresso e o crescimento do conteúdo.
+## 💬 Onde me encontrar
 
----
-
-# 💬 Onde me encontrar
-
-
-[![Email Badge](https://img.shields.io/badge/EMAIL-white?style=for-the-badge&logo=microsoft-outlook&logoColor=black)](mailto:gabriellacbueno@outlook.com)  [![Linkedin Badge](https://img.shields.io/badge/LINKEDIN-white?style=for-the-badge&logo=Linkedin&logoColor=blue)](https://www.linkedin.com/in/gabriella-c-bueno)  [![GitHub Badge](https://img.shields.io/badge/GITHUB-white?style=for-the-badge&logo=GitHub&logoColor=purple)](https://github.com/gabriellabueno)  
-
-ㅤㅤㅤㅤㅤ ㅤㅤㅤㅤㅤ  ㅤㅤ
+* [<mark style="color:blue;">LinkedIn</mark>](https://www.linkedin.com/in/gabriella-c-bueno/)
+* [<mark style="color:purple;">GitHub</mark>](https://github.com/gabriellabueno/)
