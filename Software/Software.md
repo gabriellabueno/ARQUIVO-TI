@@ -1,21 +1,25 @@
 
 
+↩ [Voltar para Início](https://github.com/gabriellabueno/ARQUIVO-TI/tree/main)  
+
+---
+
 <h1 align="center"> Software </h1>
 
 ## Índice
 
-- [Versionamento de Software](#versionamento-de-software)
-		  * [Identificadores Baseados em Sequência](#identificadores-baseados-em-sequ-ncia)
-		  * [Versionamento Semântico (SemVer)](#versionamento-sem-ntico-semver)
-		  * [Versionamento por Status mais Recente](#versionamento-por-status-mais-recente)
-- [Linguagem de Programação](#linguagem-de-programa-o)
-		  * [Syntax Tree](#syntax-tree)
-		    + [Linguagens Compiladas](#linguagens-compiladas)
-		    + [Linguagens Interpretadas](#linguagens-interpretadas)
-- [Algoritmos](#algoritmos)
-		  * [Variáveis tipo Float](#vari-veis-tipo-float)
-		  * [Complexidade do Código](#complexidade-do-c-digo)
-		  * [Revisão de Código](#revis-o-de-c-digo)
+- [Versionamento de Software](#versionamento-de-software)  
+		  * [Identificadores Baseados em Sequência](#identificadores-baseados-em-sequência)  
+		  * [Versionamento Semântico](#versionamento-semântico)  
+		  * [Versionamento por Status mais Recente](#versionamento-por-status-mais-recente)  
+- [Linguagem de Programação](#linguagem-de-programação)  
+		  * [Syntax Tree](#syntax-tree)  
+		    + [Linguagens Compiladas](#linguagens-compiladas)  
+		    + [Linguagens Interpretadas](#linguagens-interpretadas)  
+- [Algoritmos](#algoritmos)  
+		  * [Variáveis tipo Float](#variáveis-tipo-float)  
+		  * [Complexidade do Código](#complexidade-do-código)  
+		  * [Revisão de Código](#revisão-de-código)  
 
 ---
 
@@ -32,7 +36,8 @@
 
 ![Versionamento Código](Imagens/Versionamento-Codigo.png)  
 
-## Versionamento Semântico (SemVer)
+## Versionamento Semântico
+
 
 ![Versão em três partes](Imagens/Major-Minor-Patch.png)  
 

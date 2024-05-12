@@ -1,3 +1,8 @@
+
+↩ [Voltar para Início](https://github.com/gabriellabueno/ARQUIVO-TI/tree/main)  
+
+---
+
 <h1 align="center"> Hardware </h1>
 
 ## Índice
