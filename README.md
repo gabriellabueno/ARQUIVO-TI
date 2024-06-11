@@ -1,4 +1,3 @@
-
 # 🖖 Hello, world
 
 Criei este GitBook na intenção de compartilhar minhas anotações de disciplinas da faculdade, assim como estudos complementares que me dedico. Estarei constantemente atualizando e revisando estes documentos com o objetivo de manter uma documentação que poderei retornar e consultar.
@@ -7,7 +6,9 @@ Acredito que nossa comunidade Tecnológica se fortifica quando compartilhamos no
 
 Aproveite!
 
-* [<mark style="color:purple;">**Respositório no GitHub**</mark>](https://github.com/gabriellabueno/ARQUIVO-TI)
+* [<mark style="color:blue;">**Respositório no GitHub**</mark>](https://github.com/gabriellabueno/ARQUIVO-TI)
+
+### :notebook: [<mark style="color:red;">Cadernos</mark>](Cadernos/)
 
 ***
 
@@ -29,5 +30,6 @@ Lembrando que, mesmo após a publicação de um caderno, eventualmente poderei c
 
 ## 💬 Onde me encontrar
 
-* [<mark style="color:blue;">LinkedIn</mark>](https://www.linkedin.com/in/gabriella-c-bueno/)
+* [<mark style="color:purple;">LinkedIn</mark>](https://www.linkedin.com/in/gabriella-c-bueno/)
 * [<mark style="color:purple;">GitHub</mark>](https://github.com/gabriellabueno/)
+
