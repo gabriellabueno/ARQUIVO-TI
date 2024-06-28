@@ -25,15 +25,15 @@
 
 ### Campo Elétrico
 
-![Direção da corrente elétrica e campo magnético no fio](../Imagens/Hardware/Vetor-Fio.png)
+![Direção da corrente elétrica e campo magnético no fio](../images/Hardware/Vetor-Fio.png)
 
-![Sentido do vetor do campo elétrico](../Imagens/Hardware/Vetor-Campo-Eletrico.png)
+![Sentido do vetor do campo elétrico](../images/Hardware/Vetor-Campo-Eletrico.png)
 
-![Campo elétrico](../Imagens/Hardware/Campo-Eletrico.png)
+![Campo elétrico](../images/Hardware/Campo-Eletrico.png)
 
 #### Corrente AC/DC
 
-![Correntes AC/DC](../Imagens/Hardware/Corrente-AC-DC.png)
+![Correntes AC/DC](../images/Hardware/Corrente-AC-DC.png)
 
 ***
 
@@ -45,7 +45,7 @@
 >
 > > $$1nm = 1 metro / 10⁹$$ (um bilhão)
 
-![Processo de Litografia](../Imagens/Hardware/Litografia.png)
+![Processo de Litografia](../images/Hardware/Litografia.png)
 
 🔗 [How to Make a CPU: From Sand to Shelf | bit-tech](https://bit-tech.net/reviews/tech/cpus/how-to-make-a-cpu-from-sand-to-shelf/)
 
@@ -55,7 +55,7 @@
 
 ### Dimensão dos Dados
 
-![Dimensão dos Dados](../Imagens/Hardware/Dimensão-Dados.png)
+![Dimensão dos Dados](../images/Hardware/Dimensão-Dados.png)
 
 * bits → Bytes = $$n*8$$
 * Bytes → bits = $$n/8$$
@@ -68,9 +68,9 @@
 
 **Portas:** Objeto que recebe uma entrada binária e retorna uma saída binária
 
-![Portas Lógicas](../Imagens/Hardware/Portas-Logicas.png)
+![Portas Lógicas](../images/Hardware/Portas-Logicas.png)
 
-![Portas NAND](../Imagens/Hardware/NAND-gates.png)
+![](../images/Hardware/NAND-gates.png)
 
 ### Sistema Binário
 
@@ -78,17 +78,17 @@
 
 * Números binários negativos → inverter os bits
 
-![Bases Numéricas](../Imagens/Hardware/Bases-Numericas.png)
+![Bases Numéricas](../images/Hardware/Bases-Numericas.png)
 
 #### Binário para Decimal
 
-![Binário para decimal](../Imagens/Hardware/Bin-para-Dec.png)
+![](../images/Hardware/Bin-para-Dec.png)
 
 #### Operações em Binário
 
-![Soma em binário](../Imagens/Hardware/Soma-Binario.png)
+![Soma em binário](../images/Hardware/Soma-Binario.png)
 
-![Subtração em binário](../Imagens/Hardware/Subtracao-Binario.png)
+![Subtração em binário](../images/Hardware/Subtracao-Binario.png)
 
 ***
 
@@ -128,7 +128,7 @@
 
 #### Hierarquia de Memórias
 
-![Hierarquia de Memória](../Imagens/Hardware/Hierarquia-Memorias.png)
+![](../images/Hardware/Hierarquia-Memorias.png)
 
 #### Cache do Processador
 
@@ -138,19 +138,19 @@
 * Diminui tempo e energia de acesso a RAM
 * Transferência de dados em blocos fixos (linha ou bloco de cache)
 
-![Cache do Processador](../Imagens/Hardware/Cache-Processador.png)
+![Cache do Processador](../images/Hardware/Cache-Processador.png)
 
 **Entrada de Cache**
 
 * Quando um bloco de dados (linha de cache) é copiada da memória para a cache, uma entrada cache é criada, contendo os dados e endereço (tag)
 
-![Cabeçalho de entrada cache](../Imagens/Hardware/Cabecalho-Cache.png)
+![Cabeçalho de entrada cache](../images/Hardware/Cabecalho-Cache.png)
 
 * _linha/bloco de cache_ → dados
 * _tag_ → endereço
 * _flag de bits_ → somente um bit de flag (valid bit), que indica se um dado bloco foi carregado com dados válidos ou não
 
-![Topologia de Memória](../Imagens/Hardware/Topologia-Memoria-Bytes.png)
+![Topologia de Memória](../images/Hardware/Topologia-Memoria-Bytes.png)
 
 #### RAM
 
@@ -164,7 +164,7 @@
 **External Data Bus (EDB):** Linha de fios que interconectam as partes do computador\
 **Address Buss:** Conecta a CPU a MCC e envia o endereço de memória do dado
 
-![Adress Bus](../Imagens/Hardware/Adress-Bus.png)
+![](../images/Hardware/Adress-Bus.png)
 
 **CPU** → _Address Bus_ → **MMC**\
 ↳ envia endereço do dado\
@@ -186,7 +186,7 @@ _T_ = capacidade em bits\
 _N_ = $$2^n$$ ; $$n$$ é o número de linhas do barramento de endereços\
 _M_ = número de bits de cada célula
 
-![Capacidade da Memória Principal](../Imagens/Hardware/MP-Bytes.png)
+![Capacidade da Memória Principal](../images/Hardware/MP-Bytes.png)
 
 #### HD
 
@@ -214,15 +214,15 @@ _M_ = número de bits de cada célula
 * 4200/5400/7200 RPM
 * SCSI (Banco de Dados) ➡ 1980 RPM
 
-![Arquitetura do HD](../Imagens/Hardware/HD.png)
+![Arquitetura do HD](../images/Hardware/HD.png)
 
-![Discos do HD](../Imagens/Hardware/Discos-HD.png)
+![Discos do HD](../images/Hardware/Discos-HD.png)
 
 #### USB
 
 > Universal Serial Bus
 
-![USB](../Imagens/Hardware/USB.png)
+![USB Pinagem](../images/Hardware/USB.png)
 
 **Velocidades de Transferência USB**
 
@@ -245,7 +245,7 @@ $$s ≃ 17,07 s$$
 
 **Conectores**
 
-![Conectores USB](../Imagens/Hardware/Conectores.png)
+![Conectores USB](../images/Hardware/Conectores.png)
 
 **RAID - Redundant Arrays of Independent Disks:** Técnica que utiliza uma combinação de vários discos em vez de um único, para aumentar o desempenho, a redundância de dados ou ambos
 
@@ -264,7 +264,7 @@ $$s ≃ 17,07 s$$
 **Chipsets:** Northbridge | Southbridge\
 **Periféricos:** Qualquer dispositivo conectado externamente que adicione alguma funcionalidade
 
-![Arquitetura Placa-mãe](../Imagens/Hardware/Placa-mae.png)
+![Arquitetura Placa-mãe](../images/Hardware/Placa-mae.png)
 
 ### Firmware
 
@@ -279,7 +279,7 @@ $$s ≃ 17,07 s$$
 
 > Central Processing Unit
 
-![CPU](../Imagens/Hardware/CPU.png)
+![](../images/Hardware/CPU.png)
 
 **Programa:** Instruções que dizem o que o computador deve fazer\
 **Registradores:** Armazenamento dos dados utilizados pela CPU\
@@ -293,13 +293,13 @@ $$s ≃ 17,07 s$$
 
 * Primeiro bit significativo identifica se é positivo (unsigned - 0) ou negativo (signed - 1)
 
-![Ciclo de Instrução](../Imagens/Hardware/Ciclo-Intrucao.png)
+![Ciclo de Instrução](../images/Hardware/Ciclo-Intrucao.png)
 
-![Exemplo 1](../Imagens/Hardware/Blocos-Instrucao-Memoria.png)
+![Exemplo 1](../images/Hardware/Blocos-Instrucao-Memoria.png)
 
-![Exemplo 2](../Imagens/Hardware/Blocos-Instrucao-Memoria2.png)
+![Exemplo 2](../images/Hardware/Blocos-Instrucao-Memoria2.png)
 
-![Jump](../Imagens/Hardware/Jump-Funcao-Memoria.png)
+![Jump](../images/Hardware/Jump-Funcao-Memoria.png)
 
 ### Recursos Computacionais
 
@@ -313,7 +313,7 @@ $$s ≃ 17,07 s$$
 
 **Overclocking:** Técnica para exceder o limite de ciclos do processador
 
-![Clock do processador](../Imagens/Hardware/Clock.png)
+![Clock do processador](../images/Hardware/Clock.png)
 
 #### Pipeline
 

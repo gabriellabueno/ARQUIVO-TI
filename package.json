@@ -1,0 +1,19 @@
+{
+  "name": "@ARQUIVO-TI",
+  "description": "Digital archive to store and share my study notes",
+  },
+  "author": "Gabriella Bueno",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabriellabueno/ARQUIVO-TI.git"
+  },
+  "keywords": [
+    "documentação-TI",
+    "documentação-técnica",
+    "arquivo-TI",
+    "estudos-TI",
+    "markdown"
+  ]
+}
+

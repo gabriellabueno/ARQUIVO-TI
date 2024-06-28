@@ -1,0 +1,21 @@
+root: ./
+title: Arquivos TI
+language: "pt-BR"
+
+​structure:
+  readme: README.md
+  summary: SUMMARY.md​
+
+books:
+  - title: "Estatistica"
+    content: ["docs/Estatistica.md"]
+  - title: "Estrutura-Dados"
+    content: ["docs/Estrutura-Dados.md"]
+  - title: "Hardware"
+    content: ["docs/Hardware.md"]
+  - title: "Sistema-Operacional"
+    content: ["docs/Sistema-Operacional.md"]
+  - title: "Software"
+    content: ["docs/Software.md"]
+  
+

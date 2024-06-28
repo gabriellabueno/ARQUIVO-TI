@@ -11,11 +11,11 @@
   * Número de novos recursos
 * Há uma variedade de esquemas de versionamento numérico
 
-![Versionamento de Código](../Imagens/Software/Versionamento-Codigo.png)
+![Linha de Versionamento de Código](../images/Software/Versionamento-Codigo.png)
 
 ### Versionamento Semântico
 
-![Versão em três partes](../Imagens/Software/Major-Minor-Patch.png)
+![Versão em três partes](../images/Software/Major-Minor-Patch.png)
 
 **Major (alto risco):** Modificações Breaking Change (modificação que quebra a compatibilidade da API); identificado nos commits pelo símbolo **!**\
 **Minor (médio risco):** Modificações sem quebra\
@@ -57,9 +57,9 @@ Outros esquemas conferem significado em sequências individuais:
 
 > Parse Tree é transformada em uma _Abstract Syntax Tree (AST)_ e em seguida, é otimizada por um compilador ou interpretador, para a geração de um código de máquina
 
-![Formação da Syntax Tree](../Imagens/Software/Syntax-Tree.png)
+![Formação da Syntax Tree](../images/Software/Syntax-Tree.png)
 
-![Parse Tree](../Imagens/Software/Parse-Tree.png)
+![Parse Tree](../images/Software/Parse-Tree.png)
 
 **Tree interpreter:** Executa o programa passando pela Syntax Tree ou verificando cada nó e seus nós filhos, assim por diante; utilizado para linguagem extremamente simples ou DSLs (domain-specific language) pequenas\
 **Analisador semântico e verificador de tipos:** Anda pela Syntax Tree e verifica a semântica e tipagem; retorna erros tipo "Não é possível atribuir string para um inteiro" ou "Faltando ponto-vírgula"\
@@ -69,7 +69,7 @@ Outros esquemas conferem significado em sequências individuais:
 
 * _Compilador Backend:_ Aceita IR como input, otimiza e retorna ou um bytecode para Máquinas Virtuais ou instruções de máquina para CPUs
 
-![Diagrama da Syntax Tree](../Imagens/Software/Syntax-Tree2.png)
+![Diagrama da Syntax Tree](../images/Software/Syntax-Tree2.png)
 
 #### Linguagens Compiladas
 
@@ -110,8 +110,8 @@ _Exemplo:_ $$23,965 + 20,3 = 44,265$$ → $$44,3$$
 * Verificar funções/métodos próprios da linguagem
 * Ignorar constante e utilizar termo de maior grau (pior caso)
 
-![BigO](../Imagens/Software/BIgO.png)
+![BigO](../images/Software/BIgO.png)
 
 ### Revisão de Código
 
-![Revisão de Código](../Imagens/Software/Code-Review-Pyramid.png)
+![Revisão de Código](../images/Software/Code-Review-Pyramid.png)
