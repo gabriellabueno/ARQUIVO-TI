@@ -1,5 +1,3 @@
-# Hardware
-
 ## Fornecimento de Energia
 
 **Tensão:** Diferença no potencial elétrico\
@@ -35,8 +33,6 @@
 
 ![Correntes AC/DC](../images/Hardware/Corrente-AC-DC.png)
 
-***
-
 ## Litografia
 
 * Gravura em placas de silício; construção de transistores em chips de processadores
@@ -48,8 +44,6 @@
 ![Processo de Litografia](../images/Hardware/Litografia.png)
 
 🔗 [How to Make a CPU: From Sand to Shelf | bit-tech](https://bit-tech.net/reviews/tech/cpus/how-to-make-a-cpu-from-sand-to-shelf/)
-
-***
 
 ## Lógica Digital
 
@@ -92,7 +86,7 @@
 
 ***
 
-## Armazenamento
+# Armazenamento
 
 **Bit:** Binary digit; menor unidade de memória\
 **Transmissão de dados:**
@@ -103,7 +97,7 @@
 **Partição:** Divisão lógica de um dispositivo de armazenamento (em um único drive); dados são escritos em setores/_blocos de 512 bytes_\
 **Volume:** Abstração de um dispositivo de armazenamento pelo Sistema Operacional; forma de organizar partições em um ou mais dispositivos de armazenamento,
 
-### Logical Block Addressing (LBA)
+## Logical Block Addressing (LBA)
 
 * Lista linear de endereços (metadados) para mapeamento de setores
 * Cada elemento da lista aponta para um setor (partição)
@@ -121,16 +115,16 @@
 * Necessita de partição ESP (EFI System Partition)
 * $$2⁶⁴ * 512 bytes = 8 ZB$$ (Zettabyte)
 
-### Memórias
+## Memórias
 
 * Em processos de leitura e escrita em um local na memória principal, primeiro o processador checa se o dado já está na cache
   * Se estiver, utiliza o dado da cache ao invés de uma memória mais lenta
 
-#### Hierarquia de Memórias
+### Hierarquia de Memórias
 
 ![](../images/Hardware/Hierarquia-Memorias.png)
 
-#### Cache do Processador
+### Cache do Processador
 
 * Armazena dados recentes e frequentemente acessados
 * Menor e mais rápida memória utilizada pela CPU
@@ -152,7 +146,7 @@
 
 ![Topologia de Memória](../images/Hardware/Topologia-Memoria-Bytes.png)
 
-#### RAM
+### RAM
 
 > Random Access Memory
 
@@ -188,7 +182,7 @@ _M_ = número de bits de cada célula
 
 ![Capacidade da Memória Principal](../images/Hardware/MP-Bytes.png)
 
-#### HD
+### HD
 
 > Hard Disk/Drive
 
@@ -218,7 +212,7 @@ _M_ = número de bits de cada célula
 
 ![Discos do HD](../images/Hardware/Discos-HD.png)
 
-#### USB
+### USB
 
 > Universal Serial Bus
 
@@ -255,7 +249,7 @@ $$s ≃ 17,07 s$$
 
 ***
 
-## Placa-mãe
+# Placa-mãe
 
 * Circulação do sistema do computador que conecta todas as partes
 
@@ -266,7 +260,7 @@ $$s ≃ 17,07 s$$
 
 ![Arquitetura Placa-mãe](../images/Hardware/Placa-mae.png)
 
-### Firmware
+## Firmware
 
 **ROM Chip (Read-only memory chip):** Armazena a BIOS, não volátil\
 **Bateria CMOS:** Configurações de Boot, data, hora etc\
@@ -275,7 +269,7 @@ $$s ≃ 17,07 s$$
 **ACPI (Advanced Configuration and Power Interface):** Facilita que o SO encontre Hardware para configurar e gerenciar energia\
 **AHCI (Advanced Host Controller Interface):** Comunicação com controladores SATA/HDs
 
-### CPU
+## CPU
 
 > Central Processing Unit
 
@@ -289,7 +283,7 @@ $$s ≃ 17,07 s$$
   * 64 bits = endereços de memória c/ 64 bits de largura
   * nº de bits = número de linhas do barramento de dados
 
-#### Ciclo de Instrução
+### Ciclo de Instrução
 
 * Primeiro bit significativo identifica se é positivo (unsigned - 0) ou negativo (signed - 1)
 
@@ -301,9 +295,9 @@ $$s ≃ 17,07 s$$
 
 ![Jump](../images/Hardware/Jump-Funcao-Memoria.png)
 
-### Recursos Computacionais
+## Recursos Computacionais
 
-#### Clock
+### Clock
 
 * Sincroniza as operações de processamento (cálculos)
 * GHz (bilhões/s)
@@ -315,7 +309,7 @@ $$s ≃ 17,07 s$$
 
 ![Clock do processador](../images/Hardware/Clock.png)
 
-#### Pipeline
+### Pipeline
 
 * “Segundo clock” do processador que aumenta a eficiência do processamento, acelera até 1,5x
 * Divide a execução de instruções em várias etapas permitindo a execução simultânea de outras instruções
@@ -337,7 +331,7 @@ $$s ≃ 17,07 s$$
 
 ***
 
-## Desktop
+# Desktop
 
 **Cuidados**
 
@@ -345,7 +339,7 @@ $$s ≃ 17,07 s$$
   * Fazer aterramento do corpo
 * Utilizar sacos eletrostáticos para componentes
 
-#### Montagem
+### Montagem
 
 * **Fixação da Placa-mãe**
 * **CPU**

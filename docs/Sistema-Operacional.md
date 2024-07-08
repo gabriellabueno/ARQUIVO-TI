@@ -1,4 +1,3 @@
-# Sistema Operacional
 
 **Sistema Operacional (SO):** Programa ou conjunto de programas do sistema que gerencia recursos de hardware e atua como intermediário (interface) entre usuário e hardware
 
@@ -7,8 +6,6 @@
 **Program Counter:** Ponteiro que aponta para a próxima instrução a ser processada
 
 > **Hyper-Threading:** tecnologia onde o processador se apresenta para o SO como possuindo o dobro de núcleos que possui fisicamente; _divisão do processamento_ entre dois ou mais processadores lógicos
-
-***
 
 ## Boot
 
@@ -21,8 +18,6 @@
 * Bootloader - Programa pequeno que carrega o sistema operacional
 
 ![Processo de Boot](../images/Sistema-Operacional/Boot.png)
-
-***
 
 ## Tipos
 
@@ -71,7 +66,7 @@ Podem ser classificados pela **forma como gerencia suas aplicações**:
 
 ***
 
-## Kernel
+# Kernel
 
 * Núcleo do SO
 * Conjunto de rotinas que oferecem serviços essenciais aos usuários, aplicações e ao próprio sistema
@@ -84,15 +79,13 @@ Podem ser classificados pela **forma como gerencia suas aplicações**:
 * CLI - Command-Line Interface
 * GUI - Graphic User Interface
 
-### Estruturas
+## Estruturas
 
 **Camadas:** Sistema é dividido em níveis sobrepostos onde cada camada fornece funções que podem ser utilizadas apenas pelas camadas superiores; _isolamento das funções do sistema_; compromete desempenho dadas as mudanças de camadas
 
 **Microkernel - Client/Server:** Cada função/serviço do SO é disponibilizada através de processos; cliente (aplicação/usuário) solicita ao servidor (processo) responsável; permite que servidores operem como modo usuário acessando componentes limitados, pois apenas o núcleo opera em modo kernel
 
 ![Kernel e Espaço do Usuário](../images/Sistema-Operacional/Kernel.png)
-
-***
 
 ## Processos
 
@@ -143,7 +136,7 @@ Podem ser classificados pela **forma como gerencia suas aplicações**:
 
 ***
 
-## Funções do SO
+# Funções do SO
 
 1. Gerenciamento de Processador
 2. Gerenciamento de Memória
@@ -153,7 +146,7 @@ Podem ser classificados pela **forma como gerencia suas aplicações**:
 6. Contabilização de uso do sistema
 7. Segurança
 
-### Interrupções e Exceções
+## Interrupções e Exceções
 
 Eventos inesperados que causam um _desvio forçado no fluxo normal de execução_; é armazenado o _contexto_ da execução de um programa, para então posteriormente retornar do ponto onde parou
 
@@ -162,7 +155,7 @@ Eventos inesperados que causam um _desvio forçado no fluxo normal de execução
 
 ![Fluxo de Interrupção](../images/Sistema-Operacional/Interrupcao.png)
 
-### System Call
+## System Call
 
 > **Troca de mensagens** entre cliente (aplicação/usuário) e servidor (processo)
 
@@ -174,8 +167,6 @@ Eventos inesperados que causam um _desvio forçado no fluxo normal de execução
 ![Fluxo de System Call](../images/Sistema-Operacional/System-Call.png)
 
 ![](../images/Sistema-Operacional/System-Call-Tipos.png)
-
-***
 
 ## Gerência do Processador
 
@@ -226,8 +217,6 @@ Eventos inesperados que causam um _desvio forçado no fluxo normal de execução
 **Múltiplas Filas:** Várias filas com processos em estado de pronto, cada uma com prioridade específica; a fila detém a prioridade, não o processo; processos sempre voltam para a mesma fila de onde saíram
 
 **Múltiplas Filas com Realimentação:** Semelhante ao anterior, mas permite ao processo voltar para uma outra fila de maior ou menor prioridade; SO identifica dinamicamente o comportamento de cada processo e o redireciona para a fila mais conveniente
-
-***
 
 ## Gerência de Memória
 
@@ -321,8 +310,6 @@ _Soluções para problema de fragmentação externa:_
 **LRU (Least Recently Used):** Escolhe a página menos recentemente usada para fazer a troca; o sistema mantém na tabela de endereçamento de páginas um campo onde são armazenadas a data e a hora da última referência de cada página, e com base nestas informações faz a seleção
 
 **NRU (Not Recently Used):** NÃO elege a página mais recentemente usada para efetuar a troca; o sistema exclui da decisão a página mais recente e escolhe entre as outras, pelo método FIFO, qual página deve sair
-
-***
 
 ## Sistemas de Arquivos
 

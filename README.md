@@ -18,6 +18,7 @@ Conforme avanço em meus estudos, pretendo expandir o conteúdo deste arquivo pa
 
 | Caderno        | Status |
 | -------------- | ------ |
+| Java           | 80%    |
 | Banco de Dados | 10%    |
 | Redes          | 5%     |
 

@@ -1,5 +1,3 @@
-# Estatística
-
 ## Distribuição de Frequência
 
 Número total de dados $$(n)$$\

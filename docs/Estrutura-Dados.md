@@ -1,5 +1,6 @@
-# Estrutura de Dados
 
+
+**Links Úteis**  
 📌 [Data Structure Visualization](https://www.cs.usfca.edu/\~galles/visualization/Algorithms.html)\
 📚 [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 
@@ -14,7 +15,7 @@
 **Alocação Estática:** Arrays; elementos constantes; aloca espaços de acordo com o número de elementos\
 **Alocação Dinâmica:** Ponteiros; não há um máximo de dados de elementos; usa espaço suficiente para um dado elemento
 
-### Tipo Abstrato de Dados (ADT)
+# Tipo Abstrato de Dados (ADT)
 
 Contém duas partes:
 
@@ -27,7 +28,7 @@ Contém duas partes:
 
 > INSERIR | REMOVER | CONSULTAR
 
-#### Fila
+## Fila
 
 * Estrutura linear
 * FIFO - primeiro a entrar, primeiro a sair
@@ -108,7 +109,7 @@ public class Node {
 
 </details>
 
-#### Lista
+## Lista
 
 * Estrutura linear
 * Pode conter elementos como: tipo primitivo (strings, números); tipo abstrato
@@ -388,7 +389,7 @@ public class CircularList {
 
 </details>
 
-#### Pilha
+## Pilha
 
 * LIFO - último a entrar, primeiro a sair
 * Estrutura linear
@@ -452,7 +453,7 @@ public class Stack {
 
 </details>
 
-#### Recursão
+## Recursão
 
 * Condição de parada
 * Chama a si mesma
@@ -524,9 +525,9 @@ public class Stack {
 
 </details>
 
-### Ordenação
+# Ordenação
 
-#### Bubble Sort
+## Bubble Sort
 
 * Mais simples e mais lento algoritmo de ordenação
 * Passa muitas vezes pelo array e compara os elementos em pares
@@ -566,7 +567,7 @@ public static void bubbleSort(int[] array, int size) {
 
 </details>
 
-#### Quick Sort
+## Quick Sort
 
 * Dividir para conquistar ➡ divide um problema maior em um problema recursivo menor
 * A chave é o particionamento
@@ -574,7 +575,7 @@ public static void bubbleSort(int[] array, int size) {
 * Então, usando dois ponteiros, um para a esquerda e outro p/ a direita, compara os números ao pivô
 * Os números menores que o pivô vão p/ o lado esquerdo e os maiores p/ o lado direito
 
-#### Merge Sort
+## Merge Sort
 
 * Também divide para conquistar
 * Divide o array pela metade, então continua dividindo até que fique em grupos menores
@@ -664,7 +665,7 @@ public static void merge(int[] array, int[] left, int[] right) {
 
 </details>
 
-### Árvores
+# Árvores
 
 * Estrutura composta por um nó _raiz_ e abaixo dela suas subárvores
 * Cada nó tem um "nó pai"
@@ -877,7 +878,7 @@ public class Tree {
 
 </details>
 
-### Tabela Hash
+# Tabela Hash
 
 * Tabela de dispersão ou espalhamento
 * Endereçamento direto
