@@ -9,5 +9,5 @@ description: >-
 * [Hardware](../docs/Hardware.md)
 * [Software](../docs/Software.md)
 * [Estrutura de Dados](../docs/Estrutura-Dados.md)
-* [Sistema Operacional](../docs/Sistema-Operacional.md)
+* [Sistemas Operacionais](../docs/Sistemas-Operacionais.md)
 * [Estatística](../docs/Estatistica.md)

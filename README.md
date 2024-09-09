@@ -2,7 +2,7 @@
 
 Criei este GitBook na intenção de compartilhar minhas anotações de disciplinas da faculdade, assim como estudos complementares que me dedico. Estarei constantemente atualizando e revisando estes documentos com o objetivo de manter uma documentação que poderei retornar e consultar.
 
-Acredito que nossa comunidade Tecnológica se fortifica quando compartilhamos nossos conhecimentos e nos ajudamos a crescer. Então, se você é estudante, profissional ou entusiásta da área de TI dê uma ⭐ no repositório e compartilhe com outros que possam se beneficiar.
+Acredito que nossa comunidade Tecnológica se fortifica quando compartilhamos nossos conhecimentos e nos ajudamos a crescer. Então, se você é estudante, profissional ou entusiasta da área de TI dê uma ⭐ no repositório e compartilhe com outros que possam se beneficiar.
 
 Aproveite!
 
@@ -18,7 +18,7 @@ Conforme avanço em meus estudos, pretendo expandir o conteúdo deste arquivo pa
 
 | Caderno        | Status |
 | -------------- | ------ |
-| Java           | 80%    |
+| Java           | 70%    |
 | Banco de Dados | 10%    |
 | Redes          | 5%     |
 

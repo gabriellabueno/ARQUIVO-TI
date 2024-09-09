@@ -329,7 +329,7 @@ $$\Large A_s = \frac{3 · (\bar x - Md)}{S}$$
 | $$\geq$$ 0,15 e $$\leq$$ 1 | moderada   |
 | > 1                        | forte      |
 
-![](../images/Estatistica/Assimetria.png)
+![](images/Estatistica/Assimetria.png)
 
 ***
 

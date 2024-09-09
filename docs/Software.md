@@ -13,7 +13,7 @@
 - *Desktop:* C, C++, Object Pascal, Java, etc.
 - *Web:* PHP, Ruby, Javascript, Java, etc.
 	
-## Código-fonte
+## Compilação e Interpretação
 
 **Lexer (Análise Léxica):** Lexing ou Tokenização; lê os caracteres de entrada e os agrupa em unidades significativas chamadas _tokens_, seguindo as regras gramaticais definidas para a linguagem; primeira etapa do processo de compilação  
 	
@@ -178,3 +178,51 @@ Outros esquemas conferem significado em sequências individuais:
 | Release                    | 1.2.0                   | 1.2.3.0         | 1.2.0      |
 | Post-release fixes         | 1.2.5                   | 1.2.3.5         | 1.2.5      |
 
+
+---
+
+# Testes de Software
+
+- Garantir que o produto atingiu suas especificações e que funciona corretamente no ambiente para qual foi projetado
+
+> Defeito ≠ Erro ≠ Falha 
+
+*Falha:* Visível para o usuário, tem por trás algum erro  
+*Erro:*  Cenário não testado pelo desenvolvedor; falha humana; evidencia o defeito  
+*Defeito:* Bug; erro técnico; causa raiz  
+	
+*Verificação:* Verifica se esta sendo construído conforme os requisitos  
+*Validação:* Valida se as regras de negócio e as expectativas do usuário foram atendidas  
+	
+**Níveis de Teste**  
+	
+*Testes Unitários:* Focam em validar a funcionalidade de componentes individuais   
+*Testes de Integração:* Verificam como diferentes partes do sistema funcionam juntas; usados para identificar problemas na interação entre os componentes  
+*Testes de Sistema:* Verifica se o sistema completo funciona conforme esperado, incluindo todas as suas funcionalidades e integrações; se funciona conforme esperado em um ambiente que simula o real  
+*Teste de Regressão:* Garante que mudanças recentes ou correções de bugs não tenham introduzido novos defeitos em partes já testadas do software  
+*Teste de Aceitação:* Últimos testes realizados antes da entrega do produto final; confirmar se o sistema atende aos critérios de aceitação definidos pelas partes interessadas; podem ser divididos em testes de aceitação do usuário (UAT) e testes de aceitação do negócio (BAT)  
+	
+> Alpha ➡ Beta ➡ Cannary  
+	  
+**Técnicas de Teste**  
+
+*Caixa Branca:* Teste estrutural; garantir qualidade da implementação; validar dados, controles, fluxos, chamadas | Unidade, Integração, Regressão  
+*Caixa Preta:* Teste funcional; verificar saídas usando vários tipos de entrada; teste sem conhecer a estrutura interna do software | Integração, Sistema, Aceitação  
+*Caixa Cinza:* Mescla técnicas de Caixa branca e Caixa Preta; analisa parte lógica e também funcionalidade; Engenharia Reversa  
+	
+**Testes não funcionais**  
+- Ligados a requisitos não funcionais (e não a regras de negócio) ➡ Qualidade
+	- Comportamento do Sistema
+	- Performance
+	- Escalabilidade
+	- Segurança
+	- Infraestrutura
+- Utilizam ferramentas/técnicas para apurar o comportamento do sistema em determinadas circunstâncias
+	
+*Teste de carga:* Verificar qual o volume de transações, acessos simultâneos ou usuários que um servidor/software/sistema suporta
+*Testes de stress*: Submeter o software a situações extremas; testar os limites do software e avaliar seu comportamento, até quando pode ser exigido e quais as falhas (se existirem) decorrentes do teste  
+*Testes de segurança:* Segurança cibernética que visa detectar vulnerabilidades em sistemas, software, redes e aplicativos  
+	
+![Pirâmide de Testes](images/Software/Piramide-Testes.jpg)
+
+ 
