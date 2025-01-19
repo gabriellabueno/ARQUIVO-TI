@@ -6,9 +6,9 @@ Acredito que nossa comunidade Tecnológica se fortifica quando compartilhamos no
 
 Aproveite!
 
-* [<mark style="color:blue;">**Respositório no GitHub**</mark>](https://github.com/gabriellabueno/ARQUIVO-TI)
-
-### :notebook: [<mark style="color:red;">Cadernos</mark>](cadernos/)
+{% content-ref url="cadernos/" %}
+[cadernos](cadernos/)
+{% endcontent-ref %}
 
 ***
 
