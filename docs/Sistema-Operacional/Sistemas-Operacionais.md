@@ -17,11 +17,11 @@
 * Respeita a ordem de boot
 * Bootloader - Programa pequeno que carrega o sistema operacional
 
-![Processo de Boot](../images/Sistema-Operacional/Boot.png)
+![Processo de Boot](docs/Sistema-Operacional/img/boot.png)
 
 ## Tipos
 
-![](../images/Sistema-Operacional/Sistemas-Operacionais.png)
+![](docs/Sistema-Operacional/img/sistemas-operacionais.png)
 
 ### Sistemas Monoprogramáveis (Monotarefa)
 
@@ -85,7 +85,7 @@ Podem ser classificados pela **forma como gerencia suas aplicações**:
 
 **Microkernel - Client/Server:** Cada função/serviço do SO é disponibilizada através de processos; cliente (aplicação/usuário) solicita ao servidor (processo) responsável; permite que servidores operem como modo usuário acessando componentes limitados, pois apenas o núcleo opera em modo kernel
 
-![Kernel e Espaço do Usuário](../images/Sistema-Operacional/Kernel.png)
+![Kernel e Espaço do Usuário](docs/Sistema-Operacional/img/kernel.png)
 
 ## Processos
 
@@ -96,9 +96,9 @@ Podem ser classificados pela **forma como gerencia suas aplicações**:
 
 * Estrutura de dados que compõe o processo
 
-![](../images/Sistema-Operacional/BCP.png)
+![](docs/Sistema-Operacional/img/bcp.png)
 
-![](../images/Sistema-Operacional/Estrutura-Processo.jpg)
+![](docs/Sistema-Operacional/img/estrutura-processo.jpg)
 
 **Contexto de Software:** Especificação de limites e recursos
 
@@ -118,7 +118,7 @@ Podem ser classificados pela **forma como gerencia suas aplicações**:
 **WAIT:** Todos os processos que sofreram interrupção I/O; mais de um processo ao mesmo tempo (está em execução, aguarda periférico)\
 **Terminated:** Final; término de processamento; mais de um processo ao mesmo tempo
 
-![](../images/Sistema-Operacional/Estado-Processo.png)
+![](docs/Sistema-Operacional/img/estado-processo.png)
 
 ### Tipos de Processo
 
@@ -153,7 +153,7 @@ Eventos inesperados que causam um _desvio forçado no fluxo normal de execução
 * _Interrupção:_ Gerada por um evento externo; permitiu a implementação da concorrência nos computadores; fundamento básico de sistemas multitarefa
 * _Exceção:_ Execução de instrução dentro do programa (divisão por 0, overflow)
 
-![Fluxo de Interrupção](../images/Sistema-Operacional/Interrupcao.png)
+![Fluxo de Interrupção](docs/Sistema-Operacional/img/interrupcao.png)
 
 ## System Call
 
@@ -164,9 +164,9 @@ Eventos inesperados que causam um _desvio forçado no fluxo normal de execução
 * Cada serviço disponível possui sua system call
 * Cada SO possui conjunto específico de system call
 
-![Fluxo de System Call](../images/Sistema-Operacional/System-Call.png)
+![Fluxo de System Call](docs/Sistema-Operacional/img/system-call.png)
 
-![](../images/Sistema-Operacional/System-Call-Tipos.png)
+![](docs/Sistema-Operacional/img/system-call-tipos.png)
 
 ## Gerência do Processador
 
@@ -232,13 +232,13 @@ Eventos inesperados que causam um _desvio forçado no fluxo normal de execução
 
 **Segmentação de Programas - Overlay:** Divisão do programa em módulos independentes que utilizam a mesma área de memória; módulo principal ocupa a memória durante todo tempo de execução; permite execução de programas maiores que a memória física disponível
 
-![Overlay](../images/Sistema-Operacional/Overlay.png)
+![Overlay](docs/Sistema-Operacional/img/overlay.png)
 
 **Alocação Particionada Estática:** Código realocável, referências a endereços no programa são relativas ao início do código e não a endereços fixos; programas podem ser realocados em qualquer partição livre; tanto em sistemas de alocação absoluta como nas realocáveis, programas deixam espaço livre na partição (fragmentação interna)
 
 _Alocação particionada estática absoluta:_ Antigamente quando programas só podiam ser carregados/executados em uma partição específica, mesmo com outras disponíveis; referências a endereços são posições fixas na memória (código absoluto)
 
-![Alocação Particionada Estática](../images/Sistema-Operacional/Alocacao-Particionada-Estatica.png)
+![Alocação Particionada Estática](docs/Sistema-Operacional/img/alocacao-particionada-estatica.png)
 
 **Alocação Particionada Dinâmica:** Eliminado o conceito de partições de tamanho fixo; tamanho da partição é definido de acordo com o espaço necessário à execução de tal programa; eliminação da fragmentação interna, porém, dada a variação de tamanho utilizado pelos programas, restam blocos de memórias cada vez menores impedindo o ingresso de novos programas (fragmentação externa)\
 _Soluções para problema de fragmentação externa:_

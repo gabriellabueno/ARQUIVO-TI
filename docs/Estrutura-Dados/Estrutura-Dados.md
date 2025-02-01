@@ -1,8 +1,7 @@
 
-
 **Links Úteis**  
-📌 [Data Structure Visualization](https://www.cs.usfca.edu/\~galles/visualization/Algorithms.html)\
-📚 [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
+-  [Data Structure Visualization](https://www.cs.usfca.edu/\~galles/visualization/Algorithms.html)
+-  [Visualizing Algorithms](https://bost.ocks.org/mike/algorithms/)
 
 ***
 
@@ -212,7 +211,7 @@ public class Main {
 * _dados_ - informação armazenada | _próximo_ - ponteiro para o próximo nó
 * _cabeça_ - primeiro nó | _cauda_ - último nó (ponta para NULL)
 
-![](../images/Estrutura-Dados/Lista-Ligada.png)
+![](docs/Estrutura-Dados/img/lista-ligada.png)
 
 <details>
 
@@ -328,7 +327,7 @@ public class Main {
 * Qualquer nó pode ser um ponto de partida
 * _dados_ | _próximo_ | _cabeça_ | _cauda_ | _tamanho_ | _capacidade_
 
-![](../images/Estrutura-Dados/Lista-Ligada-Circular.png)
+![](docs/Estrutura-Dados/img/lista-ligada-circular.png)
 
 <details>
 
@@ -682,15 +681,15 @@ public static void merge(int[] array, int[] left, int[] right) {
 
 **Profundidade/Nível:** Número de links/arestas necessários para ,alcançar um nó a partir do nó raiz; no nível k possui no máximo $$2^k$$ nós
 
-![Estrutura da Árvore Binária](../images/Estrutura-Dados/Arvore.png)
+![Estrutura da Árvore Binária](docs/Estrutura-Dados/img/arvore.png)
 
-![Atributos da Árvore Binária](../images/Estrutura-Dados/Altura-Profundidade-Arvore.jpg)
+![Atributos da Árvore Binária](docs/Estrutura-Dados/img/altura-profundidade-arvore.jpg)
 
 **Árvore Binária:** Abaixo de cada nó podem ter no máximo dois filhos\
 **Árvore Estritamente Binária:** Árvore binária em que todo nó que não é folha tem subárvores esquerda e direita\
 **Árvore Binária Completa:** Se uma árvore binária contém _m_ nós no nível _k_, ela conterá _2m_ nós no nível _k+1_
 
-![Ordem de exibição](../images/Estrutura-Dados/Arvore-Ordem.png)
+![Ordem de exibição](docs/Estrutura-Dados/img/arvore-ordem.png)
 
 <details>
 

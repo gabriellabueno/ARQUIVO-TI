@@ -294,7 +294,7 @@ $$\Large S = \sqrt s²$$
 
 **Propriedades em Curvas Normais**
 
-![Desvio Padrão em Curvas Normais](../images/Estatistica/Curva-Normal.png)
+![Desvio Padrão em Curvas Normais](docs/Estatistica/img/curva-normal.png)
 
 ### Coeficiente de Variação $$(CV)$$
 
@@ -329,7 +329,7 @@ $$\Large A_s = \frac{3 · (\bar x - Md)}{S}$$
 | $$\geq$$ 0,15 e $$\leq$$ 1 | moderada   |
 | > 1                        | forte      |
 
-![](images/Estatistica/Assimetria.png)
+![](docs/Estatistica/img/assimetria.png)
 
 ***
 
@@ -341,7 +341,7 @@ $$\Large A_s = \frac{3 · (\bar x - Md)}{S}$$
 **Mesocúrtica -** curva normal\
 **Plasticúrtica -** dados muito espalhados
 
-![](../images/Estatistica/Curtose.png)
+![](docs/Estatistica/img/curtose.png)
 
 ### Coeficiente Percentílico de Curtose
 
