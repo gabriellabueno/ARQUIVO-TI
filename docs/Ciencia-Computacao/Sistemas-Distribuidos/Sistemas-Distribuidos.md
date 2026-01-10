@@ -1,29 +1,18 @@
-
-- Revisão 1 = 06/06
-- Revisão 2 = 13/06
-- Av = 27/06
-
-- [Conteúdo SD | Repo GitHub](https://github.com/sistemas-de-informacao-univas/SD8)  
-
----
-
-# Sistemas Distribuídos
-
 - Coleção de *computadores independentes* conectados por uma rede e equipados com um software distribuído
 - Ao usuário dão a impressão de um sistema único
 - Um único sistema *middleware*
 
 **Características**  
 - Compartilhamento de recursos
-- Concorrência de processos -> Acesso concorrente e recursos compartilhados requer *sincronização*
-- Heterogeneidade -> Implementação de diferentes desenvolvedores; middleware para suportar heterogeneidade e oferecer sistema único
+- Concorrência de processos ➡ Acesso concorrente e recursos compartilhados requer *sincronização*
+- Heterogeneidade ➡ Implementação de diferentes desenvolvedores; middleware para suportar heterogeneidade e oferecer sistema único
 
 ## Objetivos
 
-- **Acesso** -> Ligação entre usuários e recursos
-- **Transparência** -> Oculta o  funcionamento real para o usuário, aparenta ser um único sistema
-- **Flexibilidade / Extensibilidade** -> Adicionar novos componentes deixar aparente para o usuário
-- **Escalabilidade** -> Capacidade do sistema em lidar facilmente com uma quantidade crescente de trabalho
+- **Acesso** ➡ Ligação entre usuários e recursos
+- **Transparência** ➡ Oculta o  funcionamento real para o usuário, aparenta ser um único sistema
+- **Flexibilidade / Extensibilidade** ➡ Adicionar novos componentes deixar aparente para o usuário
+- **Escalabilidade** ➡ Capacidade do sistema em lidar facilmente com uma quantidade crescente de trabalho
 	- **Medição da escalabilidade:** Tamanho (nº de processos/usuários), Geográfica (distância max entre nós) e Administrativa (nº de domínios administrativos)
 
 **Gargalos em SD:** Serviços Centralizados, Dados Centralizados e Algoritmos  
@@ -45,16 +34,16 @@
 ![](img/middleware.png)
 
 > **Computação distribuída X Computação paralela**  
-> Distribuído -> fracamente acoplado
-> Paralelo -> fortemente acoplada
+> Distribuído ➡ fracamente acoplado
+> Paralelo ➡ fortemente acoplada
 
 # Tipos de Sistemas Distribuídos
 
 **Computação em Cluster (Cluster Computing)**  
 - Homogênea
-- Hardware -> Conjunto de PCs semelhantes
-- Conexão entre hardware -> LAN
-- Software -> Mesmo SO, geralmente único programa executado em paralelo
+- Hardware ➡ Conjunto de PCs semelhantes
+- Conexão entre hardware ➡ LAN
+- Software ➡ Mesmo SO, geralmente único programa executado em paralelo
 - Usado para computação paralela
 - Fortemente acoplado entre os nós
 
@@ -86,19 +75,19 @@
 **Primitivas especiais:** BEGIN_TRANSACTION, END_TRANSACTION, ABORT_TRANSACTION, READ, WRITE  
 
 **Transações ACID**  
-- Atômicas -> Indivisível
-- Consistentes -> Dados válidos antes e depois da transação de transferência
-- Isoladas -> Transações concorrentes não interferem uma com as outras
-- Duráveis -> Alterações são permanentes após transação finalizada
+- Atômicas ➡ Indivisível
+- Consistentes ➡ Dados válidos antes e depois da transação de transferência
+- Isoladas ➡ Transações concorrentes não interferem uma com as outras
+- Duráveis ➡ Alterações são permanentes após transação finalizada
 
 **Transação aninhada:** Transação com subtransações (ex. pix de um banco para outro banco, duas bases de dados diferentes)
-- *Monitor de processamento de transação (TP)* -> Permite que app acesse vários servidores e BDs oferecendo um modelo transacional, monitora efetivação das transações e retorna para app cliente
-- *Características* -> Interfaces bem definidas e totalmente disponíveis (públicas); IDL (Linguagem de Definição de Interface) - nomes das funções, tipos de parâmetros, valores de retorno e possíveis execuções
-    - IDL -> linguagem de definição, não de programação, utilizada para definir interfaces
+- *Monitor de processamento de transação (TP)* ➡ Permite que app acesse vários servidores e BDs oferecendo um modelo transacional, monitora efetivação das transações e retorna para app cliente
+- *Características* ➡ Interfaces bem definidas e totalmente disponíveis (públicas); IDL (Linguagem de Definição de Interface) - nomes das funções, tipos de parâmetros, valores de retorno e possíveis execuções
+    - IDL ➡ linguagem de definição, não de programação, utilizada para definir interfaces
     
 **Integração de Aplicações Corporativas**
 - Necessidade das aplicações se comunicarem
-- Middleware de comunicação -> RPC, RMI, MOM
+- Middleware de comunicação ➡ RPC, RMI, MOM
 	- Reusabilidade
 	- Cliente não sabe de detalhes da implementação
 
@@ -108,7 +97,7 @@
 # Estilos Arquitetônicos
 
 - Um estilo arquitetônico é determinado por:
-	- Componentes -> Unidade modular com interfaces bem definidas; substituível dentro do ambiente
+	- Componentes ➡ Unidade modular com interfaces bem definidas; substituível dentro do ambiente
 	- Conexões
 	- Dados intercambiados
 	- Formas de configuração
@@ -119,7 +108,7 @@
 - Exemplo: camadas de redes TCP/IP
 
 **Arquitetura baseadas em Objetos**  
-- Objetos são componentes -> pode ser um objeto, procedimento, função, ou até 4/5 linhas de código assembly
+- Objetos são componentes ➡ pode ser um objeto, procedimento, função, ou até 4/5 linhas de código assembly
 - Objetos são conectados a outros por chamada remota de métodos
 - Utilizada em sistemas cliente-servidor
 
@@ -130,7 +119,7 @@
 **Arquitetura baseadas em Eventos**  
 - Sistema publish-subscribe
 - Componentes publicam eventos e somente os que se subscreveram recebem estes eventos
-- Fracamente acoplados --> não invocam explicitamente um ao outro (ex. Apache Kafka)
+- Fracamente acoplados -➡ não invocam explicitamente um ao outro (ex. Apache Kafka)
 
 ---
 
@@ -138,14 +127,14 @@
 
 ## Arquiteturas Centralizadas
 
-->  Netflix, site de notícias, online bank, etc
+➡  Netflix, site de notícias, online bank, etc
 
 **Modelo Cliente-Servidor**  
 - Papéis bem definidos de servidor e cliente
 - Processos são divididos em 2 grupos
-	- Servidor -> Implementa um serviço especifico
-	- Cliente -> Requisita um serviço ao servidor
-- Forma de interação -> Request-response
+	- Servidor ➡ Implementa um serviço especifico
+	- Cliente ➡ Requisita um serviço ao servidor
+- Forma de interação ➡ Request-response
 
 **Arquitetura centralizada com camadas de aplicação**  
 Considerando muitas aplicações e a sua escalabilidade, modelo cliente-servidor pode ser dividido em 3 camadas:
@@ -162,7 +151,7 @@ Distinção clara:
 - Arquitetura de duas divisões
 - (cliente e servidor)
 
-Arquitetura de três divisões --> Recebe e faz a requisição
+Arquitetura de três divisões -➡ Recebe e faz a requisição
 1) Cliente
 2) Servidor
 3) Servidor que pode agir como cliente
@@ -171,7 +160,7 @@ Arquitetura de três divisões --> Recebe e faz a requisição
 
 ## Arquiteturas Descentralizadas
 
--> Sistemas Peer-to-Peer (P2P), como o Chord
+➡ Sistemas Peer-to-Peer (P2P), como o Chord
 - Possuem 2 distribuições
 
 **Distribuição Vertical**  
@@ -192,7 +181,7 @@ Arquitetura de três divisões --> Recebe e faz a requisição
 - Cliente que inicia a requisição
 - Arquiteturas estruturadas e não-estruturadas
 
-> **Rede de Sobreposição** -> Rede onde nós são formados pelos processos e os enlaces denotam os canais de comunicação
+> **Rede de Sobreposição** ➡ Rede onde nós são formados pelos processos e os enlaces denotam os canais de comunicação
 
 **Estruturada**  
 - Rede de sobreposição é construída usando mecanismo determinístico e “estruturado”
@@ -200,15 +189,15 @@ Arquitetura de três divisões --> Recebe e faz a requisição
 - Dados e nós recebem uma chave aleatória (128-160 bits)
 - Requisição é roteada entre os nós até alcançar o nó com o dado solicitado
 
-> Chord -> Implementação de um DHT para redes P2P
-> -> Nós logicamente organizados em anel
-> -> Cada nó recebe identificador aleatório
+> Chord ➡ Implementação de um DHT para redes P2P
+> ➡ Nós logicamente organizados em anel
+> ➡ Cada nó recebe identificador aleatório
 
 **Não-estruturada**  
 - Algoritmos aleatórios são usados na construção da rede de sobreposição
 - Cada nó mantém uma lista de nós vizinhos (não tem uma visão global da rede)
 - Dados são também armazenados aleatoriamente
-- Busca da dados -> Inunda toda a rede; tempestade de broadcast; não é uma rede que possui bom desempenho
+- Busca da dados ➡ Inunda toda a rede; tempestade de broadcast; não é uma rede que possui bom desempenho
 
 **Superpares**  
 - Nós "diretórios" e/ou intermediários
@@ -243,14 +232,14 @@ Arquitetura de três divisões --> Recebe e faz a requisição
 - Programa em execução
 - Normalmente são independentes
 - Espaços de endereçamento separados
-- Interage com outros processos por meio de IPC (Inter Process Communication) -> Mecanismo de comunicação entre os processos
+- Interage com outros processos por meio de IPC (Inter Process Communication) ➡ Mecanismo de comunicação entre os processos
 
 **Thread**  
 - São linhas (thread) de execução dentro de um único processo (subconjunto de processos)
 - Compartilham o mesmo espaço de endereçamento e alguns dados da tabela de processos
 
---> Servidor de arquivos com **um único fluxo** faz requisição do disco e espera resultado
---> O mesmo servidor com múltiplos fluxos (**multithreading**) pode atender a solicitações de outros usuários -> Aumento do **throughtput** (taxa de transferência) e do desempenho
+➡ Servidor de arquivos com **um único fluxo** faz requisição do disco e espera resultado
+➡ O mesmo servidor com múltiplos fluxos (**multithreading**) pode atender a solicitações de outros usuários ➡ Aumento do **throughtput** (taxa de transferência) e do desempenho
 
 **Time Line:** Threads dentro de um processo não ocorrem ao mesmo
 tempo mas sim concomitantemente (concorrente)  
@@ -267,21 +256,3 @@ processo (introduzida pela Intel no processador Xeon em 2002)
 
 ![](img/processo-thread.png)
 
-
----
-
-21/03
-
-Atualmente utilizamos mais fat clients
-
-servidor concorrente - stateless
-
-
-servidores stattefull e stateless -> comunicação síncrona e assíncrona
-
-cluster de servidores
-
-arquitetura 3 camadas
-1- requisição
-2 - aplicação
-3 - banco de dados

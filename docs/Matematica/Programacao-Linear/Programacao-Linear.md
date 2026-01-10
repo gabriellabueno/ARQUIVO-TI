@@ -1,8 +1,5 @@
 
 
-- [GeoGebra | Construtor de Gráficos](https://www.geogebra.org/classic) 
-
----
 # Sistemas Lineares
 
 Defini-se uma **equação linear** nas $n$ variáveis $x_1, x_2, . . . , x_n$ como uma equação que pode ser expressa na forma

@@ -1,12 +1,3 @@
-## Learning
-
-📌 [abc Treinamentos  |  Dev Java Full Stack](https://abctreinamentos.com.br/?ref=C81744704X)  
-📌 [Java 101 - Vepo dev](https://blog.vepo.dev/posts/java-101)  
-
----
-
-# Java Avançado
-
 ## Exceções
 
 **Erro:** Algo irreparável, a aplicação trava ou é encerrada drasticamente    
@@ -101,7 +92,7 @@ tesla.start();
 - Aceita somente objetos como elementos
 - Pode ter coleções homogêneas e heterogêneas, normalmente se utiliza coleções homogêneas de um tipo específico  
 	
---> Contém:  
+➡ Contém:  
 **Interfaces:** Tipos de dados abstratos que representam coleções; permitem manipular a coleção independentemente do nível de detalhe que elas representam  
 **Implementações:** Estruturas de dados reutilizáveis; implementações concretas das interfaces de coleta  
 **Algoritmos:** Funcionalidades reutilizáveis; métodos que executam cálculos úteis, como pesquisa e classificação, em objetos que implementam interfaces de coleta; são *polimórficos*, isto é, o mesmo método pode ser usado em muitas implementações diferentes da interface de coleta apropriada  

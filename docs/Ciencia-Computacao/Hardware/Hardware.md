@@ -23,15 +23,15 @@
 
 ### Campo Elétrico
 
-![Direção da corrente elétrica e campo magnético no fio](docs/Hardware/img/vetor-fio.png)
+![Direção da corrente elétrica e campo magnético no fio](img/vetor-fio.png)
 
-![Sentido do vetor do campo elétrico](docs/Hardware/img/vetor-campo-eletrico.png)
+![Sentido do vetor do campo elétrico](img/vetor-campo-eletrico.png)
 
-![Campo elétrico](docs/Hardware/img/campo-eletrico.png)
+![Campo elétrico](img/campo-eletrico.png)
 
 #### Corrente AC/DC
 
-![Correntes AC/DC](docs/Hardware/img/corrente-ac-dc.png)
+![Correntes AC/DC](img/corrente-ac-dc.png)
 
 ## Litografia
 
@@ -41,7 +41,7 @@
 >
 > > $$1nm = 1 metro / 10⁹$$ (um bilhão)
 
-![Processo de Litografia](docs/Hardware/img/litografia.png)
+![Processo de Litografia](img/litografia.png)
 
 🔗 [How to Make a CPU: From Sand to Shelf | bit-tech](https://bit-tech.net/reviews/tech/cpus/how-to-make-a-cpu-from-sand-to-shelf/)
 
@@ -49,7 +49,7 @@
 
 ### Dimensão dos Dados
 
-![Dimensão dos Dados](docs/Hardware/img/dimensao-dados.png)
+![Dimensão dos Dados](img/dimensao-dados.png)
 
 * bits → Bytes = $$n*8$$
 * Bytes → bits = $$n/8$$
@@ -62,9 +62,9 @@
 
 **Portas:** Objeto que recebe uma entrada binária e retorna uma saída binária
 
-![Portas Lógicas](docs/Hardware/img/portas-logicas.png)
+![Portas Lógicas](img/portas-logicas.png)
 
-![](docs/Hardware/img/nand-gates.png)
+![](img/nand-gates.png)
 
 ### Sistema Binário
 
@@ -72,17 +72,17 @@
 
 * Números binários negativos → inverter os bits
 
-![Bases Numéricas](docs/Hardware/img/bases-numericas.png)
+![Bases Numéricas](img/bases-numericas.png)
 
 #### Binário para Decimal
 
-![](docs/Hardware/img/bin-dec.png)
+![](img/bin-dec.png)
 
 #### Operações em Binário
 
-![Soma em binário](docs/Hardware/img/soma-binario.png)
+![Soma em binário](img/soma-binario.png)
 
-![Subtração em binário](docs/Hardware/img/subtracao-binario.png)
+![Subtração em binário](img/subtracao-binario.png)
 
 ***
 
@@ -122,7 +122,7 @@
 
 ### Hierarquia de Memórias
 
-![](docs/Hardware/img/hierarquia-memorias.png)
+![](img/hierarquia-memorias.png)
 
 ### Cache do Processador
 
@@ -132,19 +132,19 @@
 * Diminui tempo e energia de acesso a RAM
 * Transferência de dados em blocos fixos (linha ou bloco de cache)
 
-![Cache do Processador](docs/Hardware/img/cache-processador.png)
+![Cache do Processador](img/cache-processador.png)
 
 **Entrada de Cache**
 
 * Quando um bloco de dados (linha de cache) é copiada da memória para a cache, uma entrada cache é criada, contendo os dados e endereço (tag)
 
-![Cabeçalho de entrada cache](docs/Hardware/img/cabecalho-cache.png)
+![Cabeçalho de entrada cache](img/cabecalho-cache.png)
 
 * _linha/bloco de cache_ → dados
 * _tag_ → endereço
 * _flag de bits_ → somente um bit de flag (valid bit), que indica se um dado bloco foi carregado com dados válidos ou não
 
-![Topologia de Memória](docs/Hardware/img/enderecos-memoria.png)
+![Topologia de Memória](img/enderecos-memoria.png)
 
 ### RAM
 
@@ -158,7 +158,7 @@
 **External Data Bus (EDB):** Linha de fios que interconectam as partes do computador\
 **Address Buss:** Conecta a CPU a MCC e envia o endereço de memória do dado
 
-![](docs/Hardware/img/adress-bus.png)
+![](img/adress-bus.png)
 
 **CPU** → _Address Bus_ → **MMC**\
 ↳ envia endereço do dado\
@@ -180,7 +180,7 @@ _T_ = capacidade em bits\
 _N_ = $$2^n$$ ; $$n$$ é o número de linhas do barramento de endereços\
 _M_ = número de bits de cada célula
 
-![Capacidade da Memória Principal](docs/Hardware/img/mp-bytes.png)
+![Capacidade da Memória Principal](img/mp-bytes.png)
 
 ### HD
 
@@ -208,15 +208,15 @@ _M_ = número de bits de cada célula
 * 4200/5400/7200 RPM
 * SCSI (Banco de Dados) ➡ 1980 RPM
 
-![Arquitetura do HD](docs/Hardware/img/hd.png)
+![Arquitetura do HD](img/hd.png)
 
-![Discos do HD](docs/Hardware/img/discos-hd.png)
+![Discos do HD](img/discos-hd.png)
 
 ### USB
 
 > Universal Serial Bus
 
-![USB Pinagem](docs/Hardware/img/usb.png)
+![USB Pinagem](img/usb.png)
 
 **Velocidades de Transferência USB**
 
@@ -239,7 +239,7 @@ $$s ≃ 17,07 s$$
 
 **Conectores**
 
-![Conectores USB](docs/Hardware/img/conectores.png)
+![Conectores USB](img/conectores.png)
 
 **RAID - Redundant Arrays of Independent Disks:** Técnica que utiliza uma combinação de vários discos em vez de um único, para aumentar o desempenho, a redundância de dados ou ambos
 
@@ -258,7 +258,7 @@ $$s ≃ 17,07 s$$
 **Chipsets:** Northbridge | Southbridge\
 **Periféricos:** Qualquer dispositivo conectado externamente que adicione alguma funcionalidade
 
-![Arquitetura Placa-mãe](docs/Hardware/img/placa-mae.png)
+![Arquitetura Placa-mãe](img/placa-mae.png)
 
 ## Firmware
 
@@ -273,7 +273,7 @@ $$s ≃ 17,07 s$$
 
 > Central Processing Unit
 
-![](docs/Hardware/img/cpu.png)
+![](img/cpu.png)
 
 **Programa:** Instruções que dizem o que o computador deve fazer\
 **Registradores:** Armazenamento dos dados utilizados pela CPU\
@@ -287,13 +287,13 @@ $$s ≃ 17,07 s$$
 
 * Primeiro bit significativo identifica se é positivo (unsigned - 0) ou negativo (signed - 1)
 
-![Ciclo de Instrução](docs/Hardware/img/ciclo-instrucao.png)
+![Ciclo de Instrução](img/ciclo-instrucao.png)
 
-![Exemplo 1](docs/Hardware/img/blocos-instrucao-memoria.png)
+![Exemplo 1](img/blocos-instrucao-memoria.png)
 
-![Exemplo 2](docs/Hardware/img/blocos-instrucao-memoria-2.png)
+![Exemplo 2](img/blocos-instrucao-memoria-2.png)
 
-![Jump](docs/Hardware/img/jump-funcao-memoria.png)
+![Jump](img/jump-funcao-memoria.png)
 
 ## Recursos Computacionais
 
@@ -307,7 +307,7 @@ $$s ≃ 17,07 s$$
 
 **Overclocking:** Técnica para exceder o limite de ciclos do processador
 
-![Clock do processador](docs/Hardware/img/clock.png)
+![Clock do processador](img/clock.png)
 
 ### Pipeline
 

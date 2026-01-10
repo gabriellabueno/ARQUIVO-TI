@@ -1,13 +1,3 @@
-**Android Developers**  
-📚 [Guides](https://developer.android.com/guide)  
-📚 [Package Index](https://developer.android.com/reference/packages)  
-📌 [Material Theme Builder](https://material-foundation.github.io/material-theme-builder/)  
-📌 [Design for Mobile](https://developer.android.com/design/ui/mobile)  
-
----
-
-# Programação para Dispositivos Móveis
-
 **Android**  
 - Sistema operacional da Open Handset Alliance
 - Liderado pela Google
@@ -20,7 +10,7 @@
 - *.apk (Android Package):* Executável gerado após construção (build) do projeto/app; contém conteúdos necessários para o runtime e instalação  
 - *.aab (Android APP Bundle):* Executável que contém os conteúdos de um projeto Android, porém adicionalmente inclui metadados que não são necessários para o runtime; formato de publicação que não pode ser instalado em dispositivos,
 
-![Arquitetura Android](Programacao-Mobile/img/arquitetura-android.png)  
+![Arquitetura Android](img/arquitetura-android.png)  
 
 ## Tipos de Aplicativos Mobile
 
@@ -53,9 +43,9 @@
 - Armazenamento de dados localmente
 - Tarefas em segundo plano
 
-![](Programacao-Mobile/img/desenvolvimento-mobile.png)
+![](img/desenvolvimento-mobile.png)
 
-![](Programacao-Mobile/img/mobile-development.png)
+![](img/mobile-development.png)
 
 ## Compilação
 
@@ -69,7 +59,7 @@
 - *Tempo de Compilação:* Durante o processo de conversão entre código-fonte e código-objeto  
 - *Tempo de Execução:* Após a ativação do programa executável  
 
-![](Programacao-Mobile/img/compilacao.jpg)
+![](img/compilacao.jpg)
 
 
 ## Arquitetura de Aplicativos
@@ -91,7 +81,7 @@
 - *UI Layer:* UI elements; state holders
 - *Data Layer:* Repositories; data sources
 
-![Arquitetura de um aplicativo](Programacao-Mobile/img/arquitetura-app.png)  
+![Arquitetura de um aplicativo](img/arquitetura-app.png)  
 
 ---
 
@@ -328,7 +318,6 @@ String[] planets = res.getStringArray(R.array.planets_array);
 </resources>
 ```
 
-
 ### Componentes
 
 **Caixa de Diálogo**  
@@ -458,7 +447,6 @@ protected void onCreate(Bundle savedInstanceState) {
 
 ```
 
-
 **Autocomplete**  
 
 ```xml
@@ -504,321 +492,3 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 
 ```
-
-### Arquivo Texto
-
-**Gravando**  
-
-```java
-public void salvar(View view){ 
-	// botao salvar
-	try { 
-		//criar o arquivo - somente a sua aplicacao pode acessar esta informacao 
-		FileOutputStream arquivo = openFileOutput(edtNome.getText().toString() + ".txt", Context.MODE_PRIVATE);
-		
-		//criando o fluxo
-		OutputStreamWriter fluxo = new OutputStreamWriter(arquivo);
-		// criando a classe para gravar os dados
-		PrintWriter out = new PrintWriter(fluxo);
-		out.println(edtNome.getText().toString());
-		out.println(edtEndereco.getText().toString());
-		out.println(edtEmail.getText().toString());
-		Toast.makeText(getApplicationContext(), "Gravado com sucesso",Toast.LENGTH_LONG).show(); 
-		
-		// fechando os objetos
-		out.close();
-		arquivo.close();
-		fluxo.close();
-	} catch(Exception e) { 
-	Toast.makeText(getApplicationContext(),"Erro ao gravar o arquivo",Toast.LENGTH_LONG).show();
-	}
-}
-
-```
-
-**Lendo**  
-
-```java
-public void recuperar(View view) { 
-	// recuperar dados
-	try {
-		// nome do arquivo
-		FileInputStream arquivo = openFileInput(edtNome.getText().toString() + ".txt"); 
-		
-		// criar o fluxo de entrada de dados
-		InputStreamReader fluxo = new InputStreamReader(arquivo); 
-		// criando um leitor de dados
-		BufferedReader in = new BufferedReader(fluxo);
-		// leitura dos dados
-		edtNome.setText(in.readLine());
-		edtEndereco.setText(in.readLine());
-		edtEmail.setText(in.readLine()); 
-		Toast.makeText(getApplicationContext(),"Lido com sucesso!",Toast.LENGTH_LONG).show(); 
-	} catch(Exception e) {
-		Toast.makeText(getApplicationContext(),"Erro ao ler o arquivo",Toast.LENGTH_LONG).show(); 
-	} 
-}
-
-```
-
-**Envio de Email**  
-
-```java
-public void enviar(View view) { 
-	destinatario = txtDestinatario.getText().toString();
-	assunto = txtAssunto.getText().toString();
-	mensagem = txtMensagem.getText().toString();
-	
-	// abre tela do email
-	intent = new Intent(Intent.ACTION_SEND);
-	intent.putExtra(intent.EXTRA_EMAIL, new String[]{destinatario}); 
-	intent.putExtra(intent.EXTRA_SUBJECT,assunto); 
-	intent.putExtra(intent.EXTRA_TEXT,mensagem);
-	
-	// rfc822 padrao mundial de mensagem
-	intent.setType("message/rfc822");
-	startActivity(intent.createChooser(intent, "Selecione um aplicativo"));
-
-	 @Override
-	 protected void onCreate(Bundle savedInstanceState) {
-		 super.onCreate(savedInstanceState); 
-		 setContentView(R.layout.activity_main);
-		 txtAssunto = findViewById(R.id.edtAssunto);
-		 txtMensagem = findViewById(R.id.edtMensagem);
-		 txtDestinatario = findViewById(R.id.edtDestinatario);
-		 btnEnviar = findViewById(R.id.btnEnviar);
-		 btnSair = findViewById(R.id.btnSair); 
-		 
-		 btnSair.setOnClickListener(new View.OnClickListener() {
-			 @Override
-			 public void onClick(View view) {
-				 finish(); 
-			 } 
-		 });
-	 }
-}
-```
-
----
-
-# MVC
-
-```sh
-├── app
-	|	 # Model
-	└── util
-	|	 └── ConectionFactory
-	└── DAO
-	|    ├── AlunoDao
-	|	 └── Aluno
-	|	# View & Controller
-	└── view
-	     └── MainActivity
-```
-
-## Model
-
-**ConnectionFactory**  
-- Herda classe `SQLiteOpenHelper` para gerenciamento da criação de BD
-
-```java
-public class ConnectionFactory extends SQLiteOpenHelper { 
-	private static final String NAME = "banco.db";
-	private static final int VERSION = 1;
-	
-	public Conexao(@Nullable Context context) {
-		super(context, NAME,null, VERSION);
-	} 
-	
-	@Override
-	public void onCreate(SQLiteDatabase db) {
-		db.execSQL("CREATE TABLE alunos(id INTEGER PRIMARY KEY AUTOINCREMENT, "+ "nome VARCHAR(50), cpf VARCHAR(50), telefone VARCHAR(50))");
-	}
-	@Override
-	public void onUpgrade(SQLiteDatabase db, int i, int i1) { 
-		String sql = "DROP TABLE IF EXISTS alunos";
-		db.execSQL(sql); onCreate(db);
-	}
-}
-```
-
-
-### DAO
-
-📌 https://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm
-
-- CRUD
-- `SQLiteDatabase`-  Interface para interagir com um BD SQLite (SQLiteOpenHelper) no Android
-- `ContentValues` - Armazena pares chave-valor para operações em BD
-- `Cursor` - Interface que permite leitura e escrita de uma consulta a um BD
-
-
-```java
-public class AlunoDAO {
-	private ConnectionFactory conexao;
-	private SQLiteDatabase banco;
-
-	// Construtor
-	public AlunoDAO(Context context){ 
-		//ConnectionFactory com o banco de dados
-		conexao = new ConnectionFactory(context);
-		banco = conexao.getWritableDatabase(); 
-	}
-
-	public long insert(Aluno aluno){ 
-		ContentValues values = new ContentValues();
-		values.put("nome", aluno.getNome());
-		values.put("cpf", aluno.getCpf());
-		values.put("telefone", aluno.getTelefone()); 
-		return(banco.insert("aluno", null, values));
-	}
-
-	public void update(Aluno aluno){ 
-		ContentValues values = new ContentValues();
-		values.put("nome", aluno.getNome());
-		values.put("cpf", aluno.getCpf());
-		values.put("telefone", aluno.getTelefone());
-		String args[] = {aluno.getId().toString()}; 
-		banco.update("aluno", values,"id=?", args);
-	}
-
-	public void delete(Aluno aluno){
-		String args[] = {aluno.getId().toString()}; 
-		banco.delete("aluno","id=?",args); 
-	}
-
-	public List<Aluno> obterTodos() {
-		List<Aluno> alunos = new ArrayList<>();
-		Cursor cursor = banco.query("aluno", new String[]{"id", "nome", "cpf", "telefone"},
-		null, null, null, null, null);
-		
-		while (cursor.moveToNext()) {
-			Aluno a = new Aluno();
-			a.setId(cursor.getInt(0));
-			a.setNome((cursor.getString(1)));
-			a.setCpf((cursor.getString(2)));
-			a.setTelefone((cursor.getString(3)));
-			alunos.add(a); 
-		}
-		return alunos;
-	}
-
-	public Aluno read(Integer id) { 
-		String args[] = {String.valueOf(id)};
-		Cursor cursor = banco.query("aluno", new String[]{"id", "nome", "cpf", "telefone"}, "id=?", args, null, null, null); 
-		cursor.moveToFirst();
-		Aluno aluno = new Aluno();
-		
-		if(cursor.getCount() > 0){
-			aluno.setId(cursor.getInt(0));
-			aluno.setNome((cursor.getString(1)));
-			aluno.setCpf((cursor.getString(2)));
-			aluno.setTelefone((cursor.getString(3)));
-		}
-		return aluno;
-		
-	}
-}
-	
-```
-
-## View / Controller
-
-- *Controller:* Faz comunicação com a classe DAO e envia dados da View para operações CRUD
-- *View:* Recebe dados do usuário e envia para Controller; apresenta para o usuário respostas da Controller
-
-**Main**  
-
-```java
-
-// Insert
-public void salvar(View view){ 
-	Aluno a = new Aluno();
-	a.setNome(edtNome.getText().toString()); 
-	a.setCpf(edtCpf.getText().toString()); 
-	a.setTelefone(edtTelefone.getText().toString());
-	
-	dao = new 
-	AlunoDAO(this);
-	long id = dao.insert(a); 
-}
-
-public void listar(View view){ 
-	dao = new AlunoDAO(this);
-	alunos = dao.obterTodos();
-	
-	for (Aluno aluno : alunos) {
-		edtListar.append("ID : " + aluno.getId() + "\n");
-		edtListar.append("Nome : " + aluno.getNome() + "\n"); 
-		edtListar.append("CPF : " + aluno.getCpf() + "\n"); 
-		edtListar.append("Telefone: " + aluno.getTelefone() + "\n"); 
-	}
-}
-
-// MANUTENÇÃO
-
-//Update
-public void alterar(View view){
-	Aluno a = new Aluno();
-	a.setId(Integer.parseInt(edtId.getText().toString())); 
-	a.setNome(edtNome.getText().toString()); 
-	a.setCpf(edtCpf.getText().toString()); 
-	a.setTelefone(edtTelefone.getText().toString());
-	dao = new AlunoDAO(this); dao.update(a); 
-}
-
-// Read
-public void consultar(View view){
-	dao = new AlunoDAO(this);
-	Aluno a = dao.read(Integer.parseInt(edtId.getText().toString())); 
-	edtNome.setText(a.getNome());
-	edtCpf.setText(a.getCpf()); 
-	edtTelefone.setText(a.getTelefone());
-}
-
-// Delete
-public void excluir(View view){
-	Aluno a = new Aluno(); 
-	a.setId(Integer.parseInt(edtId.getText().toString()));
-	dao = new AlunoDAO(this); dao.delete(a); 
-}
-
-```
-
-**Menu**  
-
-```java
-public boolean onCreateOptionsMenu(Menu menu){ 
-	MenuInflater i = getMenuInflater(); 
-	i.inflate(R.menu.menu_principal,menu); 
-	SearchView sv = (SearchView) menu.findItem(R.id.menuBarConsultar).getActionView();
-	 
-	 sv.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-		 @Override
-		 public boolean onQueryTextSubmit(String s) { 
-			 System.out.println("Digitou "+s);
-			 return false;
-		 } 
-		 @Override
-		 public boolean onQueryTextChange(String s) { 
-			 System.out.println("Digitou "+s);
-			 return false; 
-		 } 
-	}); 
-	
-	return true;
-} 
-
-public void mostrarSalvar(MenuItem item){ 
-	Toast.makeText(getApplicationContext(),"Menu Salvar",Toast.LENGTH_LONG).show();
-}
-	
-public void mostrarEditar(MenuItem item){ 
-	Toast.makeText(getApplicationContext(),"Menu Editar",Toast.LENGTH_LONG).show();
-} 
-public void mostrarSair(MenuItem item){ 
-	finish();
-}
-```
-
-

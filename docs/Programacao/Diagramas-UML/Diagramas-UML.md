@@ -16,7 +16,7 @@
 - Visualização das classes (métodos e atributos) que irão compor o sistema; relacionamento entre classes  
 - Utilização na fase de *análise do projeto*
 
-![](docs/Diagramas-UML/img/diagramas-uml.png)
+![](img/diagramas-uml.png)
 
 ## Estrutural
 
@@ -65,7 +65,7 @@ classDiagram
 
 **Relacionamentos**  
 
-![Relacionamentos](docs/Diagramas-UML/img/diagrama-classes-relacionamentos.png)  
+![Relacionamentos](img/diagrama-classes-relacionamentos.png)  
 
 - *Dependência:* Dependência fraca; ilustra que uma classe usa informações e serviços de outra classe em algum momento; pode existir sem a outra classe, porém, depende desta para seu funcionamento  
 	- Carro depende da Roda  
@@ -82,7 +82,7 @@ classDiagram
 		- Peixe é um tipo de Animal 
 - *Classe Associativa:* Quando ocorrem associações com multiplicidade muitos ( * ) em todas as extremidades; atributos de associação que não podem ser armazenados em nenhuma das classes envolvidas
 
-![Classe Associativa](docs/Diagramas-UML/img/classe-associativa.png)  
+![Classe Associativa](img/classe-associativa.png)  
 
 **Multiplicidade**
 
@@ -92,21 +92,21 @@ classDiagram
 `[1..*]- 1 ou muitos` ➡ Pelo menos um obj envolvido no relacionamento
 `[3..5]` ➡ Valores específicos
 
-![Exemplo Diagrama de Interface Gráfica (GUI)](docs/Diagramas-UML/img/relacionamentos-resumo.png)
+![Exemplo Diagrama de Interface Gráfica (GUI)](img/relacionamentos-resumo.png)
 
 ### Diagrama de Implantação
 
 - Configuração e arquitetura de um sistema em que estarão ligados seus componentes
 - **Características:** Estrutura da plataforma em que o sistema será executado; pode representar qualquer dispositivo (gerenciador de BD, servidores, computadores, etc)  
 
-![](docs/Diagramas-UML/img/diagrama-de-implantacao.png)
+![](img/diagrama-de-implantacao.png)
 
 ### Diagrama de Pacotes
 
 - Subsistemas ou submódulos englobados por um sistema de forma a determinar as partes que o compõem
 - **Dependência:** Pacotes normalmente possuem dependências entre si
 
-![](docs/Diagramas-UML/img/diagrama-pacotes.png)
+![](img/diagrama-pacotes.png)
 
 ## Comportamental
 
@@ -120,14 +120,14 @@ classDiagram
 2. **Identificar papéis:** Quem interage com o sistema e com quais funcionalidades
 
 
-![Caso de Uso](docs/Diagramas-UML/img/caso-de-uso.png)  
+![Caso de Uso](img/caso-de-uso.png)  
 
 
-![Relacionamento](docs/Diagramas-UML/img/caso-de-uso-relacionamento.png)  
+![Relacionamento](img/caso-de-uso-relacionamento.png)  
 
 **Exemplo**  
 
-![Exemplo](docs/Diagramas-UML/img/caso-de-uso-exemplo.png)  
+![Exemplo](img/caso-de-uso-exemplo.png)  
 
 ### Diagrama de Sequência
 
@@ -147,7 +147,7 @@ classDiagram
 	- Criação/Exclusão de Participante
 	- Mensagem de Guarda (condicional)  
 
-![](docs/Diagramas-UML/img/diagrama-sequencia.png)
+![](img/diagrama-sequencia.png)
 
 *Esteriótipos:* Representações permitem destacas componentes que têm função especial  
 - `<<entity>>`: Armazena informações referentes ao problema em questão; torna explícito que a classe contém informações recebidas e armazenadas/geradas pelo sistema 
@@ -155,9 +155,9 @@ classDiagram
 - `<<control>>`: Identifica classes que fazem intermédio entre classes *boundary* e as demais classes; interpreta eventos ocorridos sobre estes objetos (movimento do mouse, pressionamento de botão)
 
 
-![Esteriótipos](docs/Diagramas-UML/img/diagrama-sequencia-esteriotipos.png)  
+![Esteriótipos](img/diagrama-sequencia-esteriotipos.png)  
 
-![Exemplo Cadastro de Cliente](docs/Diagramas-UML/img/diagrama-sequencia-exemplo.png)  
+![Exemplo Cadastro de Cliente](img/diagrama-sequencia-exemplo.png)  
 
 ### Diagrama de Atividades
 
@@ -179,7 +179,7 @@ classDiagram
 - *Partições:* Mostra quem faz o que  
 - *Sinais ou mensagens:* Envio ou recebimento de sinais ou mensagens por uma ação
 
-![](docs/Diagramas-UML/img/diagrama-atividade.png) 
+![](img/diagrama-atividade.png) 
 
 ### Diagrama de Máquina de Estado
 
@@ -197,4 +197,4 @@ classDiagram
 - *Evento:* É a especificação de uma ocorrência significativa que tem uma localização no tempo e no espaço
 - *Transição:* É um relacionamento entre dois estados
 
-![](docs/Diagramas-UML/img/diagrama-estado.png)
+![](img/diagrama-estado.png)

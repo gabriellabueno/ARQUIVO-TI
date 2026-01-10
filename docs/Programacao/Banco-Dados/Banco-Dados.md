@@ -149,7 +149,7 @@ um BD; repositório centralizado com informações sobre os dados, como: signifi
 - Definido em quantidade de dígitos e quantidade de casas decimais 
 	- `DECIMAL(10,2)` - para valores financeiros
 
-![Tipos de Dados em SQL](docs/Banco-Dados/img/tipos-dados.png)
+![Tipos de Dados em SQL](img/tipos-dados.png)
 
 ## Constraints
 
@@ -437,7 +437,7 @@ FROM table_name
 WHERE column > ( SELECT AVG(column) FROM table_name );
 ```
 
-![](docs/Banco-Dados/img/sql-join.png)
+![](img/sql-join.png)
 
 
 ### Data Control Language (DCL)

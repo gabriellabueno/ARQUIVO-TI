@@ -23,7 +23,7 @@
 	
 > Enquanto a Parse Tree mantém informações adicionais como espaços em branco e comentários, a Syntax Tree foca apenas nos elementos necessários para a geração de código de máquina  
 
-![Formação da Syntax Tree](docs/Desenvolvimento-Software/img/syntax-tree.png)
+![Formação da Syntax Tree](img/syntax-tree.png)
 
 ## Tipo de Execução
 
@@ -131,7 +131,7 @@ _Exemplo:_ $$23,965 + 20,3 = 44,265$$ → $$44,3$$
 * Verificar funções/métodos próprios da linguagem
 * Ignorar constante e utilizar termo de maior grau (pior caso)
 
-![BigO](docs/Desenvolvimento-Software/img/big-o.png)
+![BigO](img/big-o.png)
 
 ---
 
@@ -146,11 +146,11 @@ _Exemplo:_ $$23,965 + 20,3 = 44,265$$ → $$44,3$$
   * Número de novos recursos
 * Há uma variedade de esquemas de versionamento numérico
 
-![Linha de Versionamento de Código](docs/Desenvolvimento-Software/img/versionamento-codigo.png)
+![Linha de Versionamento de Código](img/versionamento-codigo.png)
 
 ## Versionamento Semântico
 
-![Versão em três partes](docs/Desenvolvimento-Software/img/major-minor-patch.png)
+![Versão em três partes](img/major-minor-patch.png)
 
 **Major (alto risco):** Modificações Breaking Change (modificação que quebra a compatibilidade da API); identificado nos commits pelo símbolo **!**\
 **Minor (médio risco):** Modificações sem quebra\
