@@ -1,12 +1,3 @@
-**Links Úteis**  
-- [SQL Tutorial  |  Cheat Sheet](https://www.sqltutorial.org/)  
-- [Practice SQL  |  Exercises](https://www.sql-practice.com)  
-- [SQL Easy  |  Exercises](https://www.sql-easy.com)
-- [SQL Online  |  Sandbox](https://sqliteonline.com/)  
-
----
-
-# Banco de Dados
 
 **Dado:** Conjunto de Bits/Bytes  
 **Informação:** Dados com identificação e significado; dado processado  
@@ -140,7 +131,7 @@ um BD; repositório centralizado com informações sobre os dados, como: signifi
 > `*`  (asterisco): All  
 > `LIKE`: Semelhante  
 > `?`: Substitui char  
- >  `DESCRIBE`: Apresenta informações sobre a estrutura de objetos da base de dados  
+ >  `DESCRIBE` / `DESC`: Apresenta informações sobre a estrutura de objetos da base de dados  
 
 ## Tipos de Dados
 
@@ -167,6 +158,14 @@ Restrições; regras pré definidas impostas às colunas; controlar dados que s�
 - `UNIQUE`
 - `CHECK`
 - `DEFAULT`
+
+**NULL**  
+- `x = NULL` e `x != NULL` não funcionam
+	- Usar `x IS NULL` e `x IS NOT NULL` 
+- NULL não são encontrados nas queries
+	- Para considerar NULL, usar `WHERE name != 'john' OR name IS NULL`
+
+
 
 **Primary Key  X Unique**  
 
@@ -336,6 +335,14 @@ SELECT * FROM table_name
 WHERE species NOT IN('cat', 'dog');
 
 -- FILTROS
+
+-- Cláusula HAVING
+-- similar ao WHERE, mas filtra colunas depois de agrupar
+SELECT month
+FROM sales
+GROUP BY month
+HAVING SUM(price) > 6
+
 
 -- Ordenação
 SELECT * FROM table_name ORDER BY column [ASC | DESC];

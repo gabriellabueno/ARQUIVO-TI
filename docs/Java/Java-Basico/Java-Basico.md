@@ -1,8 +1,3 @@
-**Links Úteis**  
--  [Modern Java Cheat Sheet](https://philvarner.github.io/pages/modern-java.html)  
--  [Visual Guide to Swing Components](https://web.mit.edu/6.005/www/sp14/psets/ps4/java-6-tutorial/components.html)  
-
----
 
 # Java
 

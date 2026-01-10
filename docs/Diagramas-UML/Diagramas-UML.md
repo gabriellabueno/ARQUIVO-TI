@@ -1,9 +1,3 @@
-**Links Úteis**  
--  [Visual Paradigm  |  Editor de Diagramas Online](https://online.visual-paradigm.com/drive/#diagramlist:proj=0&dashboard)  
-- [Draw.io  |  Editor de Diagramas Online](https://www.drawio.com)  
-- [nomnoml  |  Editor Diagramas UML via texto](https://nomnoml.com)  
-
----
 
 # Modelagem de Software
 
