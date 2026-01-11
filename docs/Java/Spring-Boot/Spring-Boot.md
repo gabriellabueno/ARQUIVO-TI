@@ -145,7 +145,7 @@ public class AlunoService {
 public interface AlunoRepository extends JpaRepository<Aluno, Integer> { } // Camada Repository
 ```
 
-![](../.gitbook/assets/arquitetura-camadas.png)
+![](../../../.gitbook/assets/arquitetura-camadas.png)
 
 ***
 

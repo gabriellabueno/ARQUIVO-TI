@@ -18,7 +18,7 @@
 * Visualização das classes (métodos e atributos) que irão compor o sistema; relacionamento entre classes
 * Utilização na fase de _análise do projeto_
 
-![](../.gitbook/assets/diagramas-uml.png)
+![](../../../.gitbook/assets/diagramas-uml.png)
 
 ### Estrutural
 
@@ -68,7 +68,7 @@ classDiagram
 
 **Relacionamentos**
 
-![Relacionamentos](../.gitbook/assets/diagrama-classes-relacionamentos.png)
+![Relacionamentos](../../../.gitbook/assets/diagrama-classes-relacionamentos.png)
 
 * _Dependência:_ Dependência fraca; ilustra que uma classe usa informações e serviços de outra classe em algum momento; pode existir sem a outra classe, porém, depende desta para seu funcionamento
   * Carro depende da Roda
@@ -85,7 +85,7 @@ classDiagram
     * Peixe é um tipo de Animal
 * _Classe Associativa:_ Quando ocorrem associações com multiplicidade muitos ( \* ) em todas as extremidades; atributos de associação que não podem ser armazenados em nenhuma das classes envolvidas
 
-![Classe Associativa](../.gitbook/assets/classe-associativa.png)
+![Classe Associativa](../../../.gitbook/assets/classe-associativa.png)
 
 **Multiplicidade**
 
@@ -94,21 +94,21 @@ classDiagram
 `[0..*] - muitos` ➡ Podem haver muitos obj de classe envolvidos no relacionamento\
 `[1..*]- 1 ou muitos` ➡ Pelo menos um obj envolvido no relacionamento `[3..5]` ➡ Valores específicos
 
-![Exemplo Diagrama de Interface Gráfica (GUI)](../.gitbook/assets/relacionamentos-resumo.png)
+![Exemplo Diagrama de Interface Gráfica (GUI)](../../../.gitbook/assets/relacionamentos-resumo.png)
 
 #### Diagrama de Implantação
 
 * Configuração e arquitetura de um sistema em que estarão ligados seus componentes
 * **Características:** Estrutura da plataforma em que o sistema será executado; pode representar qualquer dispositivo (gerenciador de BD, servidores, computadores, etc)
 
-![](../.gitbook/assets/diagrama-de-implantacao.png)
+![](../../../.gitbook/assets/diagrama-de-implantacao.png)
 
 #### Diagrama de Pacotes
 
 * Subsistemas ou submódulos englobados por um sistema de forma a determinar as partes que o compõem
 * **Dependência:** Pacotes normalmente possuem dependências entre si
 
-![](../.gitbook/assets/diagrama-pacotes.png)
+![](../../../.gitbook/assets/diagrama-pacotes.png)
 
 ### Comportamental
 
@@ -122,13 +122,13 @@ classDiagram
 1. **Definir escopo:** Funcionalidades
 2. **Identificar papéis:** Quem interage com o sistema e com quais funcionalidades
 
-![Caso de Uso](../.gitbook/assets/caso-de-uso.png)
+![Caso de Uso](../../../.gitbook/assets/caso-de-uso.png)
 
-![Relacionamento](../.gitbook/assets/caso-de-uso-relacionamento.png)
+![Relacionamento](../../../.gitbook/assets/caso-de-uso-relacionamento.png)
 
 **Exemplo**
 
-![Exemplo](../.gitbook/assets/caso-de-uso-exemplo.png)
+![Exemplo](../../../.gitbook/assets/caso-de-uso-exemplo.png)
 
 #### Diagrama de Sequência
 
@@ -149,7 +149,7 @@ classDiagram
   * Criação/Exclusão de Participante
   * Mensagem de Guarda (condicional)
 
-![](../.gitbook/assets/diagrama-sequencia.png)
+![](../../../.gitbook/assets/diagrama-sequencia.png)
 
 _Esteriótipos:_ Representações permitem destacas componentes que têm função especial
 
@@ -157,9 +157,9 @@ _Esteriótipos:_ Representações permitem destacas componentes que têm funçã
 * `<<boundary>>`: Fronteira; interface; identifica uma classe que serve de comunicação entre atores externos e o sistema
 * `<<control>>`: Identifica classes que fazem intermédio entre classes _boundary_ e as demais classes; interpreta eventos ocorridos sobre estes objetos (movimento do mouse, pressionamento de botão)
 
-![Esteriótipos](../.gitbook/assets/diagrama-sequencia-esteriotipos.png)
+![Esteriótipos](../../../.gitbook/assets/diagrama-sequencia-esteriotipos.png)
 
-![Exemplo Cadastro de Cliente](../.gitbook/assets/diagrama-sequencia-exemplo.png)
+![Exemplo Cadastro de Cliente](../../../.gitbook/assets/diagrama-sequencia-exemplo.png)
 
 #### Diagrama de Atividades
 
@@ -182,7 +182,7 @@ _Esteriótipos:_ Representações permitem destacas componentes que têm funçã
 * _Partições:_ Mostra quem faz o que
 * _Sinais ou mensagens:_ Envio ou recebimento de sinais ou mensagens por uma ação
 
-![](../.gitbook/assets/diagrama-atividade.png)
+![](../../../.gitbook/assets/diagrama-atividade.png)
 
 #### Diagrama de Máquina de Estado
 
@@ -201,4 +201,4 @@ _Esteriótipos:_ Representações permitem destacas componentes que têm funçã
 * _Evento:_ É a especificação de uma ocorrência significativa que tem uma localização no tempo e no espaço
 * _Transição:_ É um relacionamento entre dois estados
 
-![](../.gitbook/assets/diagrama-estado.png)
+![](../../../.gitbook/assets/diagrama-estado.png)

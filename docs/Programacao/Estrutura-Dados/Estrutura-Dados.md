@@ -204,7 +204,7 @@ public class Main {
 * _dados_ - informação armazenada | _próximo_ - ponteiro para o próximo nó
 * _cabeça_ - primeiro nó | _cauda_ - último nó (ponta para NULL)
 
-![](../.gitbook/assets/lista-ligada.png)
+![](../../../.gitbook/assets/lista-ligada.png)
 
 <details>
 
@@ -318,7 +318,7 @@ public class Main {
 * Qualquer nó pode ser um ponto de partida
 * _dados_ | _próximo_ | _cabeça_ | _cauda_ | _tamanho_ | _capacidade_
 
-![](../.gitbook/assets/lista-ligada-circular.png)
+![](../../../.gitbook/assets/lista-ligada-circular.png)
 
 <details>
 
@@ -662,15 +662,15 @@ public static void merge(int[] array, int[] left, int[] right) {
 
 **Profundidade/Nível:** Número de links/arestas necessários para ,alcançar um nó a partir do nó raiz; no nível k possui no máximo $$2^k$$ nós
 
-![Estrutura da Árvore Binária](../.gitbook/assets/arvore.png)
+![Estrutura da Árvore Binária](../../../.gitbook/assets/arvore.png)
 
-![Atributos da Árvore Binária](../.gitbook/assets/altura-profundidade-arvore.jpg)
+![Atributos da Árvore Binária](../../../.gitbook/assets/altura-profundidade-arvore.jpg)
 
 **Árvore Binária:** Abaixo de cada nó podem ter no máximo dois filhos\
 **Árvore Estritamente Binária:** Árvore binária em que todo nó que não é folha tem subárvores esquerda e direita\
 **Árvore Binária Completa:** Se uma árvore binária contém _m_ nós no nível _k_, ela conterá _2m_ nós no nível _k+1_
 
-![Ordem de exibição](../.gitbook/assets/arvore-ordem.png)
+![Ordem de exibição](../../../.gitbook/assets/arvore-ordem.png)
 
 <details>
 

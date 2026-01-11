@@ -25,15 +25,15 @@
 
 #### Campo Elétrico
 
-![Direção da corrente elétrica e campo magnético no fio](../.gitbook/assets/vetor-fio.png)
+![Direção da corrente elétrica e campo magnético no fio](../../../.gitbook/assets/vetor-fio.png)
 
-![Sentido do vetor do campo elétrico](../.gitbook/assets/vetor-campo-eletrico.png)
+![Sentido do vetor do campo elétrico](../../../.gitbook/assets/vetor-campo-eletrico.png)
 
-![Campo elétrico](../.gitbook/assets/campo-eletrico.png)
+![Campo elétrico](../../../.gitbook/assets/campo-eletrico.png)
 
 **Corrente AC/DC**
 
-![Correntes AC/DC](../.gitbook/assets/corrente-ac-dc.png)
+![Correntes AC/DC](../../../.gitbook/assets/corrente-ac-dc.png)
 
 ### Litografia
 
@@ -43,7 +43,7 @@
 >
 > > $$1nm = 1 metro / 10⁹$$ (um bilhão)
 
-![Processo de Litografia](../.gitbook/assets/litografia.png)
+![Processo de Litografia](../../../.gitbook/assets/litografia.png)
 
 🔗 [How to Make a CPU: From Sand to Shelf | bit-tech](https://bit-tech.net/reviews/tech/cpus/how-to-make-a-cpu-from-sand-to-shelf/)
 
@@ -51,7 +51,7 @@
 
 #### Dimensão dos Dados
 
-![Dimensão dos Dados](../.gitbook/assets/dimensao-dados.png)
+![Dimensão dos Dados](../../../.gitbook/assets/dimensao-dados.png)
 
 * bits → Bytes = $$n*8$$
 * Bytes → bits = $$n/8$$
@@ -64,9 +64,9 @@
 
 **Portas:** Objeto que recebe uma entrada binária e retorna uma saída binária
 
-![Portas Lógicas](../.gitbook/assets/portas-logicas.png)
+![Portas Lógicas](../../../.gitbook/assets/portas-logicas.png)
 
-![](../.gitbook/assets/nand-gates.png)
+![](../../../.gitbook/assets/nand-gates.png)
 
 #### Sistema Binário
 
@@ -74,17 +74,17 @@
 
 * Números binários negativos → inverter os bits
 
-![Bases Numéricas](../.gitbook/assets/bases-numericas.png)
+![Bases Numéricas](../../../.gitbook/assets/bases-numericas.png)
 
 **Binário para Decimal**
 
-![](../.gitbook/assets/bin-dec.png)
+![](../../../.gitbook/assets/bin-dec.png)
 
 **Operações em Binário**
 
-![Soma em binário](../.gitbook/assets/soma-binario.png)
+![Soma em binário](../../../.gitbook/assets/soma-binario.png)
 
-![Subtração em binário](../.gitbook/assets/subtracao-binario.png)
+![Subtração em binário](../../../.gitbook/assets/subtracao-binario.png)
 
 ***
 
@@ -124,7 +124,7 @@
 
 #### Hierarquia de Memórias
 
-![](../.gitbook/assets/hierarquia-memorias.png)
+![](../../../.gitbook/assets/hierarquia-memorias.png)
 
 #### Cache do Processador
 
@@ -134,19 +134,19 @@
 * Diminui tempo e energia de acesso a RAM
 * Transferência de dados em blocos fixos (linha ou bloco de cache)
 
-![Cache do Processador](../.gitbook/assets/cache-processador.png)
+![Cache do Processador](../../../.gitbook/assets/cache-processador.png)
 
 **Entrada de Cache**
 
 * Quando um bloco de dados (linha de cache) é copiada da memória para a cache, uma entrada cache é criada, contendo os dados e endereço (tag)
 
-![Cabeçalho de entrada cache](../.gitbook/assets/cabecalho-cache.png)
+![Cabeçalho de entrada cache](../../../.gitbook/assets/cabecalho-cache.png)
 
 * _linha/bloco de cache_ → dados
 * _tag_ → endereço
 * _flag de bits_ → somente um bit de flag (valid bit), que indica se um dado bloco foi carregado com dados válidos ou não
 
-![Topologia de Memória](../.gitbook/assets/enderecos-memoria.png)
+![Topologia de Memória](../../../.gitbook/assets/enderecos-memoria.png)
 
 #### RAM
 
@@ -160,7 +160,7 @@
 **External Data Bus (EDB):** Linha de fios que interconectam as partes do computador\
 **Address Buss:** Conecta a CPU a MCC e envia o endereço de memória do dado
 
-![](../.gitbook/assets/adress-bus.png)
+![](../../../.gitbook/assets/adress-bus.png)
 
 **CPU** → _Address Bus_ → **MMC**\
 ↳ envia endereço do dado\
@@ -182,7 +182,7 @@ $$T = N * M$$\
 &#xNAN;_&#x4E;_ = $$2^n$$ ; $$n$$ é o número de linhas do barramento de endereços\
 &#xNAN;_&#x4D;_ = número de bits de cada célula
 
-![Capacidade da Memória Principal](../.gitbook/assets/mp-bytes.png)
+![Capacidade da Memória Principal](../../../.gitbook/assets/mp-bytes.png)
 
 #### HD
 
@@ -210,15 +210,15 @@ $$T = N * M$$\
 * 4200/5400/7200 RPM
 * SCSI (Banco de Dados) ➡ 1980 RPM
 
-![Arquitetura do HD](../.gitbook/assets/hd.png)
+![Arquitetura do HD](../../../.gitbook/assets/hd.png)
 
-![Discos do HD](../.gitbook/assets/discos-hd.png)
+![Discos do HD](../../../.gitbook/assets/discos-hd.png)
 
 #### USB
 
 > Universal Serial Bus
 
-![USB Pinagem](../.gitbook/assets/usb.png)
+![USB Pinagem](../../../.gitbook/assets/usb.png)
 
 **Velocidades de Transferência USB**
 
@@ -241,7 +241,7 @@ $$s ≃ 17,07 s$$
 
 **Conectores**
 
-![Conectores USB](../.gitbook/assets/conectores.png)
+![Conectores USB](../../../.gitbook/assets/conectores.png)
 
 **RAID - Redundant Arrays of Independent Disks:** Técnica que utiliza uma combinação de vários discos em vez de um único, para aumentar o desempenho, a redundância de dados ou ambos
 
@@ -260,7 +260,7 @@ $$s ≃ 17,07 s$$
 **Chipsets:** Northbridge | Southbridge\
 **Periféricos:** Qualquer dispositivo conectado externamente que adicione alguma funcionalidade
 
-![Arquitetura Placa-mãe](../.gitbook/assets/placa-mae.png)
+![Arquitetura Placa-mãe](../../../.gitbook/assets/placa-mae.png)
 
 ### Firmware
 
@@ -275,7 +275,7 @@ $$s ≃ 17,07 s$$
 
 > Central Processing Unit
 
-![](../.gitbook/assets/cpu.png)
+![](../../../.gitbook/assets/cpu.png)
 
 **Programa:** Instruções que dizem o que o computador deve fazer\
 **Registradores:** Armazenamento dos dados utilizados pela CPU\
@@ -289,13 +289,13 @@ $$s ≃ 17,07 s$$
 
 * Primeiro bit significativo identifica se é positivo (unsigned - 0) ou negativo (signed - 1)
 
-![Ciclo de Instrução](../.gitbook/assets/ciclo-instrucao.png)
+![Ciclo de Instrução](../../../.gitbook/assets/ciclo-instrucao.png)
 
-![Exemplo 1](../.gitbook/assets/blocos-instrucao-memoria.png)
+![Exemplo 1](../../../.gitbook/assets/blocos-instrucao-memoria.png)
 
-![Exemplo 2](../.gitbook/assets/blocos-instrucao-memoria-2.png)
+![Exemplo 2](../../../.gitbook/assets/blocos-instrucao-memoria-2.png)
 
-![Jump](../.gitbook/assets/jump-funcao-memoria.png)
+![Jump](../../../.gitbook/assets/jump-funcao-memoria.png)
 
 ### Recursos Computacionais
 
@@ -309,7 +309,7 @@ $$s ≃ 17,07 s$$
 
 **Overclocking:** Técnica para exceder o limite de ciclos do processador
 
-![Clock do processador](../.gitbook/assets/clock.png)
+![Clock do processador](../../../.gitbook/assets/clock.png)
 
 #### Pipeline
 

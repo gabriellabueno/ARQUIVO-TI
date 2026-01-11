@@ -296,7 +296,7 @@ $$\Large S = \sqrt s²$$
 
 **Propriedades em Curvas Normais**
 
-![Desvio Padrão em Curvas Normais](../.gitbook/assets/curva-normal.png)
+![Desvio Padrão em Curvas Normais](../../../.gitbook/assets/curva-normal.png)
 
 #### Coeficiente de Variação $$(CV)$$
 
@@ -331,7 +331,7 @@ $$\Large A_s = \frac{3 · (\bar x - Md)}{S}$$
 | $$\geq$$ 0,15 e $$\leq$$ 1 | moderada   |
 | > 1                        | forte      |
 
-![](../.gitbook/assets/assimetria.png)
+![](../../../.gitbook/assets/assimetria.png)
 
 ***
 
@@ -343,7 +343,7 @@ $$\Large A_s = \frac{3 · (\bar x - Md)}{S}$$
 **Mesocúrtica -** curva normal\
 **Plasticúrtica -** dados muito espalhados
 
-![](../.gitbook/assets/curtose.png)
+![](../../../.gitbook/assets/curtose.png)
 
 #### Coeficiente Percentílico de Curtose
 

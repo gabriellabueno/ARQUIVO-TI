@@ -13,7 +13,7 @@
 * _.apk (Android Package):_ Executável gerado após construção (build) do projeto/app; contém conteúdos necessários para o runtime e instalação
 * _.aab (Android APP Bundle):_ Executável que contém os conteúdos de um projeto Android, porém adicionalmente inclui metadados que não são necessários para o runtime; formato de publicação que não pode ser instalado em dispositivos,
 
-![Arquitetura Android](../.gitbook/assets/arquitetura-android.png)
+![Arquitetura Android](../../../.gitbook/assets/arquitetura-android.png)
 
 ### Tipos de Aplicativos Mobile
 
@@ -50,9 +50,9 @@
 * Armazenamento de dados localmente
 * Tarefas em segundo plano
 
-![](../.gitbook/assets/desenvolvimento-mobile.png)
+![](../../../.gitbook/assets/desenvolvimento-mobile.png)
 
-![](../.gitbook/assets/mobile-development.png)
+![](../../../.gitbook/assets/mobile-development.png)
 
 ### Compilação
 
@@ -66,7 +66,7 @@
 * _Tempo de Compilação:_ Durante o processo de conversão entre código-fonte e código-objeto
 * _Tempo de Execução:_ Após a ativação do programa executável
 
-![](../.gitbook/assets/compilacao.jpg)
+![](../../../.gitbook/assets/compilacao.jpg)
 
 ### Arquitetura de Aplicativos
 
@@ -88,7 +88,7 @@
 * _UI Layer:_ UI elements; state holders
 * _Data Layer:_ Repositories; data sources
 
-![Arquitetura de um aplicativo](../.gitbook/assets/arquitetura-app.png)
+![Arquitetura de um aplicativo](../../../.gitbook/assets/arquitetura-app.png)
 
 ***
 

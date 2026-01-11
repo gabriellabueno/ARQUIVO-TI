@@ -103,11 +103,11 @@ tesla.start();
 
 **Collections (classe):** Classe utilitária do Java para operações comuns em coleções; fornece métodos para ordenação, busca, manipulação e sincronização de coleções
 
-![Núcleo principal das coleções](../.gitbook/assets/collection-framework.png)
+![Núcleo principal das coleções](../../../.gitbook/assets/collection-framework.png)
 
 > Embora a interface Map não seja filha direta da interface Collection, ela também é considerada uma coleção devido à sua função.
 
-![](../.gitbook/assets/collections-cheat-sheet.png)
+![](../../../.gitbook/assets/collections-cheat-sheet.png)
 
 ### Generics
 
@@ -214,7 +214,7 @@ private static void printList(List<?> myList) {
 
 > A anotação `@FunctionalInterface` é recomendada para interfaces funcionais, pois além de um indicador, também permite que o compilador gere um erro caso a interface não cumpra com as condições de ser uma interface funcional
 
-![](../.gitbook/assets/funtional-interfaces.png)
+![](../../../.gitbook/assets/funtional-interfaces.png)
 
 * **Runnable:** É frequentemente usado para executar tarefas em threads separados | `run()`
 * **Callable:** Similar ao Runnable, mas tem um retorno de valor e lança exceções | `call()`
@@ -315,7 +315,7 @@ class CompareYearAuthorTitle implements Comparator<Book> {
 * Combinado com as Expressões Lambda e Method reference
 * Um _pipeline de Stream_, consistem em uma fonte, seguido por zero ou mais operações intermediárias e uma operação terminal.
 
-![](../.gitbook/assets/streams.png)
+![](../../../.gitbook/assets/streams.png)
 
 **Operações Intermediárias:** Retornam uma nova Stream e permitem encadear várias operações, formando um _pipeline de processamento de dados_
 

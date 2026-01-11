@@ -28,7 +28,7 @@
 
 > Enquanto a Parse Tree mantém informações adicionais como espaços em branco e comentários, a Syntax Tree foca apenas nos elementos necessários para a geração de código de máquina
 
-![Formação da Syntax Tree](../.gitbook/assets/syntax-tree.png)
+![Formação da Syntax Tree](../../../.gitbook/assets/syntax-tree.png)
 
 ### Tipo de Execução
 
@@ -137,7 +137,7 @@ public class SomaDeclarativa {
 * Verificar funções/métodos próprios da linguagem
 * Ignorar constante e utilizar termo de maior grau (pior caso)
 
-![BigO](../.gitbook/assets/big-o.png)
+![BigO](../../../.gitbook/assets/big-o.png)
 
 ***
 
@@ -152,11 +152,11 @@ public class SomaDeclarativa {
   * Número de novos recursos
 * Há uma variedade de esquemas de versionamento numérico
 
-![Linha de Versionamento de Código](../.gitbook/assets/versionamento-codigo.png)
+![Linha de Versionamento de Código](../../../.gitbook/assets/versionamento-codigo.png)
 
 ### Versionamento Semântico
 
-![Versão em três partes](../.gitbook/assets/major-minor-patch.png)
+![Versão em três partes](../../../.gitbook/assets/major-minor-patch.png)
 
 **Major (alto risco):** Modificações Breaking Change (modificação que quebra a compatibilidade da API); identificado nos commits pelo símbolo **!**\
 **Minor (médio risco):** Modificações sem quebra\

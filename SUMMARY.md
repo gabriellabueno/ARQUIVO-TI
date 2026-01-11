@@ -4,26 +4,26 @@
 
 ## CIÊNCIA DA COMPUTAÇÃO
 
-* [Hardware](ciencia-da-computacao/hardware.md)
-* [Sistemas Operacionais](ciencia-da-computacao/sistemas-operacionais.md)
-* [Redes](ciencia-da-computacao/redes.md)
-* [Sistemas Distribuídos](ciencia-da-computacao/sistemas-distribuidos.md)
+* [Hardware](docs/Ciencia-Computacao/Hardware/Hardware.md)
+* [Sistemas Operacionais](docs/Ciencia-Computacao/Sistemas-Operacionais/Sistemas-Operacionais.md)
+* [Redes](docs/Ciencia-Computacao/Redes/Redes.md)
+* [Sistemas Distribuídos](docs/Ciencia-Computacao/Sistemas-Distribuidos/Sistemas-Distribuidos.md)
 
 ## PROGRAMAÇÃO
 
-* [Desenvolvimento de Software](programacao/desenvolvimento-software.md)
-* [Estrutura de Dados](programacao/estrutura-dados.md)
-* [Banco de Dados](programacao/banco-dados.md)
-* [Diagramas UML](programacao/diagramas-uml.md)
-* [Programação Mobile](programacao/programacao-mobile.md)
+* [Desenvolvimento de Software](docs/Programacao/Desenvolvimento-Software/Desenvolvimento-Software.md)
+* [Estrutura de Dados](docs/Programacao/Estrutura-Dados/Estrutura-Dados.md)
+* [Banco de Dados](docs/Programacao/Banco-Dados/Banco-Dados.md)
+* [Diagramas UML](docs/Programacao/Diagramas-UML/Diagramas-UML.md)
+* [Programação Mobile](docs/Programacao/Programacao-Mobile/Programacao-Mobile.md)
 
 ## JAVA
 
-* [Java Básico](java/java-basico.md)
-* [Java Avançado](java/java-avancado.md)
-* [Spring Boot](java/spring-boot.md)
+* [Java Básico](docs/Java/Java-Basico/Java-Basico.md)
+* [Java Avançado](docs/Java/Java-Avancado/Java-Avancado.md)
+* [Spring Boot](docs/Java/Spring-Boot/Spring-Boot.md)
 
 ## MATEMÁTICA
 
-* [Estatística Aplicada](matematica/estatistica.md)
-* [Programação Linear](matematica/programacao-linear.md)
+* [Estatística Aplicada](docs/Matematica/Estatistica/Estatistica.md)
+* [Programação Linear](docs/Matematica/Programacao-Linear/Programacao-Linear.md)

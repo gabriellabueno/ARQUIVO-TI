@@ -35,7 +35,7 @@
 * Cliente e servidor não precisam se conhecer diretamente
 * Isolamento de componentes da aplicação
 
-![](../.gitbook/assets/middleware.png)
+![](../../../.gitbook/assets/middleware.png)
 
 > **Computação distribuída X Computação paralela**\
 > Distribuído ➡ fracamente acoplado Paralelo ➡ fortemente acoplada
@@ -278,4 +278,4 @@ Arquitetura de três divisões -➡ Recebe e faz a requisição
 
 **Threads em nível de kernel:** Cuida da criação e escalonamento das threads de todos os processos
 
-![](../.gitbook/assets/processo-thread.png)
+![](../../../.gitbook/assets/processo-thread.png)

@@ -169,7 +169,7 @@ _3NF_
 * Definido em quantidade de dígitos e quantidade de casas decimais
   * `DECIMAL(10,2)` - para valores financeiros
 
-![Tipos de Dados em SQL](../.gitbook/assets/tipos-dados.png)
+![Tipos de Dados em SQL](../../../.gitbook/assets/tipos-dados.png)
 
 ### Constraints
 
@@ -459,7 +459,7 @@ FROM table_name
 WHERE column > ( SELECT AVG(column) FROM table_name );
 ```
 
-![](../.gitbook/assets/sql-join.png)
+![](../../../.gitbook/assets/sql-join.png)
 
 #### Data Control Language (DCL)
 

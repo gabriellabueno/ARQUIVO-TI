@@ -37,7 +37,7 @@ Cada solução de um sistema corresponde a um ponto de **interseção das retas 
 
 > Um sistema linear é **consistente** se possuir pelo menos uma solução e **inconsistente** se não tiver solução
 
-![](../.gitbook/assets/resolucao-retas-planos.png)
+![](../../../.gitbook/assets/resolucao-retas-planos.png)
 
 ### Classificação
 
@@ -267,24 +267,42 @@ $$x_2 = \text{produção de P2}$$
 
 > $$2x_1 + 3x_2 = 120$$
 >
-> x\_1 = 0$ |$$ x_2 = 40$ $$x\_1 = 60$ |\$$x\_2 = 0$
+> $$x_1 = 0$$ | $$x_2 = 40$$
+>
+> $$x_1 = 60$$ | $$x_2 = 0$$
 
 -> $$x_1 \leq 40$$ | $$x_2 \leq 30$$
 
-> $$ x_1 = 40$ $$x\_2 = 30$
+> $$x_1 = 40$$
+>
+> $$x_2 = 30$$
 
 3 - A partir dos valores, definir coordenadas para o gráfico
 
-> $$ (60,40)$ $$(40, 0)$ \$$(0, 30)$
+> $$(60,40)$$
+>
+> $$(40, 0)$$
+>
+> $$(0, 30)$$
 
-\--> **Montar Gráfico** \$$(x, 30)$
+\--> **Montar Gráfico** $$(x, 30)$$
 
-1 - Traçar retas com base nas variáveis -$$(60, 40)$ - azul -$$(40, 0)$ - vermelho -\$$(0, 30)$ - vermelho 2 - Identificar área factível 3 - Identificar pontos possíveis
+1 - Traçar retas com base nas variáveis
 
-* A ->\$$(x, 30)$
-* B ->\$$(40, x)$
+* $$(60, 40)$$ - azul
+* $$(40, 0)$$ - vermelho
+* $$(0, 30)$$ - vermelho&#x20;
 
-> A ->$$ 2x_1 + 3x(30) = 120$ $$2x\_1 + 90 = 120$\
+2 - Identificar área factível&#x20;
+
+3 - Identificar pontos possíveis
+
+* A ->$$(x, 30)$$
+* B ->$$(40, x)$$
+
+> A ->$$2x_1 + 3x(30) = 120$$
+>
+> 2x\_1 + 90 = 120$\
 > $$ 2x_1 = 120 - 90$ $$2x\_1 = 30$\
 > $$ x_1 = 15$ $$A = (15, 30)$
 

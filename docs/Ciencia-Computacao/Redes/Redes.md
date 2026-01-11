@@ -37,7 +37,7 @@
 > Internet ➡ Infraestrutura\
 > Web ➡ Serviço construído sobre a infraestrutura
 
-![Networks](../.gitbook/assets/intranet-extranet.png)
+![Networks](../../../.gitbook/assets/intranet-extranet.png)
 
 **Meios de Transmissão de dados**
 
@@ -112,7 +112,7 @@
 
 ## Abrangência
 
-![](../.gitbook/assets/abrangencia-redes.jpg)
+![](../../../.gitbook/assets/abrangencia-redes.jpg)
 
 ***
 
@@ -130,7 +130,7 @@
 
 **Elementos de Interconexão**
 
-![](../.gitbook/assets/dispositivos-camadas.png)
+![](../../../.gitbook/assets/dispositivos-camadas.png)
 
 > Hubs e Switches são utilizados dentro de LANs. Para troca de dados fora da própria rede, é necessário a leitura de endereços IP, que é feita pelo Roteador.
 
@@ -188,7 +188,7 @@
 
 
 
-<figure><img src="../.gitbook/assets/osi-vs-tcp-ip.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/osi-vs-tcp-ip.png" alt=""><figcaption></figcaption></figure>
 
 ### Modelo OSI
 
@@ -200,7 +200,7 @@
 
 **Encapsulamento:** Cada camada recebe as informações da camada imediatamente superior, acrescenta informações pelas quais é responsável, e passa para a camada inferior
 
-![Enscapsulamento das Camadas](../.gitbook/assets/enscapsulamento-osi.png)
+![Enscapsulamento das Camadas](../../../.gitbook/assets/enscapsulamento-osi.png)
 
 ### Modelo TCP/IP
 
@@ -210,7 +210,7 @@
 * Cada camada é responsável por uma função específica e usa as funções oferecidas pelas camadas inferiores
 * **Arquitetura de Rede:** Combinação dos diversos protocolos nas várias camadas
 
-![](../.gitbook/assets/tcp-ip.png)
+![](../../../.gitbook/assets/tcp-ip.png)
 
 ***
 
@@ -249,7 +249,7 @@
 
 **Hierarquia DNS**
 
-![](../.gitbook/assets/dns.png)
+![](../../../.gitbook/assets/dns.png)
 
 **URL (Uniform Resource Locator)**
 
@@ -262,7 +262,7 @@
 * _parâmetros_
 * _âncora_ > área específica da página
 
-![URL](../.gitbook/assets/url-componentes.png)
+![URL](../../../.gitbook/assets/url-componentes.png)
 
 **HTTP / HTTPS**
 
@@ -293,7 +293,7 @@ _HTTP/2_
 * POST ➡ Requisição para enviar arquivos de dados para o servidor como formulários de dados
 * PUT ➡ Carrega recursos ou conteúdos para o servidor
 
-![Códigos de Status de Conexão](../.gitbook/assets/http-status-codes.png)
+![Códigos de Status de Conexão](../../../.gitbook/assets/http-status-codes.png)
 
 #### FTP
 
@@ -344,7 +344,7 @@ _HTTP/2_
 * Host ➡ Resposta com DHCP REQUEST
 * Servidor ➡ Confirmação com DHCP PACK
 
-![](../.gitbook/assets/dhcp.png)
+![](../../../.gitbook/assets/dhcp.png)
 
 #### SMB / SAMBA
 
@@ -363,7 +363,7 @@ _HTTP/2_
 
 ### TCP
 
-![](../.gitbook/assets/tpc-ip-packet.png)
+![](../../../.gitbook/assets/tpc-ip-packet.png)
 
 ### UDP
 
@@ -374,7 +374,7 @@ _HTTP/2_
 * Especifica porta para programa que deve receber o pacote
 * Checksum = parte do cabeçalho que verifica se dados estão corrompidos ou não, a partir da soma dos bits
 
-![](../.gitbook/assets/udp.png)
+![](../../../.gitbook/assets/udp.png)
 
 > IP leva o pacote até o computador certo, mas UDP leva o pacote até o programa correto naquele computador
 
@@ -405,7 +405,7 @@ _HTTP/2_
 
 > Qualquer cliente pode enviar uma resposta ARP não solicitada denominada "ARP gratuito". Outros hosts na sub-rede armazenam o endereço MAC e o endereço IP contidos no ARP gratuito em suas tabelas ARP
 
-![](../.gitbook/assets/arp.png)
+![](../../../.gitbook/assets/arp.png)
 
 #### ICMP
 
@@ -436,4 +436,4 @@ _HTTP/2_
 
 ***
 
-![Comunicação](../.gitbook/assets/address-bar.gif)
+![Comunicação](../../../.gitbook/assets/address-bar.gif)
