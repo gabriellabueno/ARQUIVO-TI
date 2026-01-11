@@ -9,12 +9,14 @@ Em que $a_1, a_2, . . . , a_n$ e $b$ são **constantes**, sendo que nem todos os
 
 Um **sistema linear** arbitrário de $m$ equações nas $n$ incógnitas $x_1, x_2, . . . , x_n$ pode ser escrito como:
 
-$$\begin{align}
+$$
+\begin{align}
 a_{11} x_1 + a_{12} x_2 & + ... + a_{1n} x_n = b_1 \\
 a_{21} x_1 + a_{22} x_2 & + ... + a_{2n} x_n = b_2 \\
                  &\vdots \\
 a_{m1} x_1 + a_{m2} x_2 & + ... + a_{mn} x_n = b_m
-\end{align}$$
+\end{align}
+$$
 
 --> Um sistema linear não envolve produtos ou raízes, todas as variáveis ocorrem somente na *primeira potência*
 
