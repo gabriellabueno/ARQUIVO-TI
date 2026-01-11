@@ -2,11 +2,11 @@
 
 ## Sistemas Lineares
 
-Defini-se uma **equação linear** nas $n$ variáveis $x\_1, x\_2, . . . , x\_n$ como uma equação que pode ser expressa na forma
+Defini-se uma **equação linear** nas $n$ variáveis $$x_1, x_2, . . . , x_n$$ como uma equação que pode ser expressa na forma
 
-$$a_1x_1 + a_2x_2 +· · · + a_n x_n = b$$ Em que $a\_1, a\_2, . . . , a\_n$ e $b$ são **constantes**, sendo que nem todos os $a$ são nulos, as variáveis $x,y,z$ são denominadas **incógnitas**
+$$a_1x_1 + a_2x_2 +· · · + a_n x_n = b$$ Em que $$a_1, a_2, . . . , a_n$$ e $$b$$ são **constantes**, sendo que nem todos os $$a$$ são nulos, as variáveis $$x,y,z$$ são denominadas **incógnitas**
 
-Um **sistema linear** arbitrário de $m$ equações nas $n$ incógnitas $x\_1, x\_2, . . . , x\_n$ pode ser escrito como:
+Um **sistema linear** arbitrário de $m$ equações nas $$n$$ incógnitas $$x_1, x_2, . . . , x_n$$ pode ser escrito como:
 
 $$
 \begin{align}
@@ -17,15 +17,15 @@ a_{m1} x_1 + a_{m2} x_2 & + ... + a_{mn} x_n = b_m
 \end{align}
 $$
 
-\--> Um sistema linear não envolve produtos ou raízes, todas as variáveis ocorrem somente na _primeira potência_
+➡ Um sistema linear não envolve produtos ou raízes, todas as variáveis ocorrem somente na _primeira potência_
 
-A **solução** de um sistema nas $n$ incógnitas $x\_1, x\_2, . . . , x\_n$ é uma sequência de $n$ números $s\_1, s\_2, . . . , s\_n$
+A **solução** de um sistema nas $$n$$ incógnitas $$x_1, x_2, . . . , x_n$$ é uma sequência de $n$ números $$s_1, s_2, . . . , s_n$$
 
-Para os quais a substituição $x\_1 = s\_1, x\_2 = s\_2, . . . , x\_n = s\_n$ faz de cada equação uma afirmação verdadeira
+Para os quais a substituição $$x_1 = s_1, x_2 = s_2, . . . , x_n = s_n$$ faz de cada equação uma afirmação verdadeira
 
 ### Representação gráfica
 
-Uma solução $x = n, y = m$ pode ser escrita como $(x, y)$, o que nos permite interpretar soluções geometricamente como **pontos** nos espaços bi e tridimensionais
+Uma solução $$x = n, y = m$$ pode ser escrita como $$(x, y)$$, o que nos permite interpretar soluções geometricamente como **pontos** nos espaços bi e tridimensionais
 
 Sistemas lineares em duas incógnitas são relacionados com **retas** e em três incógnitas a **planos**
 
@@ -57,17 +57,12 @@ Os sistemas lineares podem ser classificados conforme o número de soluções po
 * Resulta em uma equação com uma só incógnita para ser resolução
 
 > **Exemplo:**\
-> $x + y = 3$\
-> $2x + 3y = 8$
+> $$x + y = 3$$\
+> $$2x + 3y = 8$$
 
 1. Isolar uma das incógnitas em uma das equações
 
-$$
-\begin{align}
-x + y = 3 \\ 
-x = 3 - y   
-\end{align}
-$$
+<p align="center"><span class="math">\begin{align} x + y = 3 \\  x = 3 - y    \end{align}</span></p>
 
 2. Substituir a incógnita na outra equação e resolver
 
@@ -103,8 +98,8 @@ $$
 * Resolver a equação com uma só incógnita
 
 > **Exemplo 1:**\
-> $x - y = -1$\
-> $x + y = 3$
+> $$x - y = -1$$\
+> $$x + y = 3$$
 
 1. Somar equações para cancelar uma das incógnitas
 
@@ -130,9 +125,10 @@ $$
 
 * S =(1, 2)
 
-> **Exemplo 2:**\
-> $3x + 6y = 18$\
-> $2x + 3y = 10$
+> **Exemplo 2:**
+>
+> $$3x + 6y = 18$$\
+> $$2x + 3y = 10$$
 
 1. Caso não seja possível cancelar, multiplicar uma das equações por uma constante, para que uma das incógnitas se torne o inverso aditivo de outra incógnita
 
@@ -193,7 +189,7 @@ $$
 1. Com duas restrições que formam inequações
    * Que posteriormente serão transformadas em equações, para que se determinem os pares de coordenadas das retas
 2. Uma restrição de inequação e outras que são constantes
-   * No gráfico, as constantes são representadas por retas em que o $x$ ou $y$ será 0
+   * No gráfico, as constantes são representadas por retas em que o $$x$$ ou $$y$$ será 0
 
 #### 1 - Transformar Inequações em Equações
 
@@ -302,28 +298,40 @@ $$x_2 = \text{produção de P2}$$
 
 > A ->$$2x_1 + 3x(30) = 120$$
 >
-> 2x\_1 + 90 = 120$\
-> $$ 2x_1 = 120 - 90$ $$2x\_1 = 30$\
-> $$ x_1 = 15$ $$A = (15, 30)$
+> $$2x_1 + 90 = 120$$\
+> $$2x_1 = 120 - 90$$
+>
+> $$2x_1 = 30$$\
+> $$x_1 = 15$$
+>
+> $$A = (15, 30)$$
 
-B ->\$$2(40) + 3x\_2 = 120$
+B -> $$2(40) + 3x_2 = 120$$
 
-> $$ 80 + 3x_2 = 120$ $$3x\_1 = 120 - 80$\
-> $$ 3x_1 = 40$ $$x\_1 = \frac{40}{3}$ ou $$ 13.33$ $$B = (40, \frac{40}{3})$
+> $$80 + 3x_2 = 120$$
+>
+> $$3x_1 = 120 - 80$$\
+> $$3x_1 = 40$$
+>
+> $$x_1 = \frac{40}{3}$$ ou $$13.33$$
+>
+> $$B = (40, \frac{40}{3})$$
 
 \--> **Teste das soluções**
 
 1. Testar pontos possíveis na Função Objetivo
 
-> \$$A = (15, 30)$
+> $$A = (15, 30)$$
 
-> $$ L = 100(15) + 150(30)$ $$L = 1500 + 4500$\
-> \$$L = 6000$
+> $$L = 100(15) + 150(30)$$
+>
+> $$L = 1500 + 4500$$\
+> $$L = 6000$$
 
-> \$$B = (40, \frac{40}{3})$
+> $$B = (40, \frac{40}{3})$$
 
-> $$ L = 100(40) + 150(\frac{40}{3})$ $$L = 4000 + 2000$\
-> \$$L = 6000$
+> $$ L = 100(40) + 150(\frac{40}{3})$ $$$$L = 4000 + 2000$$\
+> $$L = 6000$$
 
 2. Identificar ponto que satisfaz o objetivo
 
@@ -342,16 +350,23 @@ B ->\$$2(40) + 3x\_2 = 120$
 
 -> Problema de maximização
 
-**Maximizar:**\$$Z = 3x₁ + 2x₂$
+**Maximizar:** $$Z = 3x₁ + 2x₂$$
 
-**Restrições técnicas**\
--$$2x₁ + x₂ ≤ 18$ -$$2x₁ + 3x₂ ≤ 42$ -$$3x₁ + x₂ ≤ 24$ -$$x₁, x₂ ≥ 0$
+**Restrições técnicas**<br>
+
+* $$2x₁ + x₂ ≤ 18$$
+* $$2x₁ + 3x₂ ≤ 42$$
+* &#x20;$$3x₁ + x₂ ≤ 24$$
+* $$x₁, x₂ ≥ 0$$
 
 #### 1 - Transformar para Forma Padrão
 
 **1.1 Adicionar Variáveis de Folga**
 
-* Para cada restrição ≤, adicionar uma variável de folga$$f_*$ -$$2x₁ + x₂ + f₁ = 18$ -$$2x₁ + 3x₂ + f₂ = 42$ -$$3x₁ + x₂ + f₃ = 24$
+* Para cada restrição ≤, adicionar uma variável de folga$$f_*$$
+* $$2x₁ + x₂ + f₁ = 18$$
+* $$2x₁ + 3x₂ + f₂ = 42$$
+* $$3x₁ + x₂ + f₃ = 24$$
 
 **1.2 Função Objetivo**\
 -\$$Z - 3x₁ - 2x₂ = 0$
@@ -400,11 +415,14 @@ B ->\$$2(40) + 3x\_2 = 120$
 
 **5.2 Eliminar x₁ das Outras Linhas**
 
-**Linha Z:** L₀ + 3 × (nova linha x₁) | Z | 1 | 0 | -1 | 0 | 0 | 1 | 24 |
+**Linha Z:** L₀ + 3 × (nova linha x₁)\
+&#x20;\| Z | 1 | 0 | -1 | 0 | 0 | 1 | 24 |
 
-**Linha 1:** L₁ - 2 × (nova linha x₁) | f₁ | 0 | 0 | 1/3 | 1 | 0 | -2/3 | 2 |
+**Linha 1:** L₁ - 2 × (nova linha x₁) \
+\| f₁ | 0 | 0 | 1/3 | 1 | 0 | -2/3 | 2 |
 
-**Linha 2:** L₂ - 2 × (nova linha x₁) | f₂ | 0 | 0 | 7/3 | 0 | 1 | -2/3 | 26 |
+**Linha 2:** L₂ - 2 × (nova linha x₁) \
+\| f₂ | 0 | 0 | 7/3 | 0 | 1 | -2/3 | 26 |
 
 #### 6 - Nova Tabela Simplex
 
@@ -434,7 +452,8 @@ Ainda temos -1 < 0 na linha Z, então continuamos.
 #### 8 - Segundo Pivotamento
 
 **8.1 Nova Linha Pivô (x₂)**\
-Multiplicar linha f₁ por 3: | x₂ | 0 | 0 | 1 | 3 | 0 | -2 | 6 |
+Multiplicar linha f₁ por 3: \
+\| x₂ | 0 | 0 | 1 | 3 | 0 | -2 | 6 |
 
 **8.2 Eliminar x₂ das Outras Linhas**
 
